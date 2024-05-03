@@ -1,0 +1,191 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans--apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/564x/3d/13/92/3d13921fcd6d8c3c3ad771f84735f2ee.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:rgba(0, 0, 0, 0.89) ;
+}
+
+/* THIS IS FOR THE HTML WELCOME*/
+header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+nav {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    
+  
+}
+nav ul{
+    width: 100%;
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    
+}
+nav li{
+    height: 50px;
+}
+nav a{
+   height: 100%;
+   padding: 0% 30px;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   color: white;
+}
+nav a:hover{
+    border-bottom: 1px solid #ffffff;
+} 
+nav li:first-child{
+    margin-right: auto;
+}.sidebar{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(8, 1, 1, 0.841);
+    backdrop-filter: blur(10px);
+    box-shadow: -1-px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%
+}
+.menu-button{
+    display: none;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    menu-button{
+        display: block;
+    }
+}
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+    font-size: 3em;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+} 
+.menu a:hover{
+    border: 1px solid rgba(221, 160, 221, 0.166);
+    background: transparent;
+}
+ 
+.h-text{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    transition: 0.4s;
+
+}
+.h-text span{
+    letter-spacing: 6px;
+    font-size: 55px;
+    font-weight: 100;
+}
+.h-text a{
+    text-decoration: underline;
+    padding: 10px 20px;
+    color: white;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+
+form{
+    margin-top: 60%;
+}
+
+form #name {
+    font-size: 18px;
+}
+#namecookie{
+    text-decoration: none;
+    font-size: 17px;
+    background: none;
+    color: white;
+    border: none;
+}
+
+.scoreboard{
+    text-align: center;
+    color: #ffffff;
+}
+.container{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    padding: 0px 20px;
+
+}
+
+.table{
+    background-color: rgba(56, 56, 56, 0.261);
+    width: 80%;
+    height: 40px;
+    margin-left: 8%;
+    text-align: center;
+    padding: 1px 10px;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 5px;
+    border-style: double;
+    border-color: #ffffff;
+    transition: 0.4s
+;}
+
+.table:hover{
+    border-bottom: #ffffff;
+    border-style: double;
+}

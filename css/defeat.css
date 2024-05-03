@@ -1,0 +1,211 @@
+        
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: rgb(255, 255, 255); /* Set text color to white */
+            background-color: rgba(0, 0, 0, 0.75);
+            background-size: cover; 
+            background-repeat: no-repeat;
+        }
+
+        #gif{
+          width: 60%;
+          margin-left: 20%;
+           
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        #score {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        #back-to-game {
+            margin-top: 30px;
+            padding: 20px 15px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        #retry {
+            padding: 20px 15px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        #save{
+            padding: 20px 15px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+
+        /* save button effect */
+        .save {
+            margin-top: 4%;
+            color: white;
+            border: 0px solid #fff;
+            padding: 1em 2em;
+            min-width: 150px;
+            min-height: 50px;
+            background: none;
+            position: relative;
+            cursor: pointer;
+            box-shadow: inset -2px 1px 11px rgba(0,0,0,0.5);
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: large;
+            text-transform: uppercase;
+        }
+        svg {
+            position: absolute;
+            inset: 0;
+            fill: none;
+            stroke: #fff;
+            stroke-width: 5px;
+            stroke-dasharray: 33 297;
+            stroke-dashoffset: 50;
+            transition: all 0.5s linear;
+        }
+        .save:hover {
+            background-color: #85a296;
+            box-shadow: none;
+        }
+        .save:hover svg {
+            stroke-width: 3px;
+            stroke-dashoffset: -500;
+        }
+        .save:active {
+            transform: scale(1.001);
+            background-color: #73dcae;
+        }
+
+        .save {
+        margin-top: 4%;
+        color: white;
+        border: 0px solid #fff;
+        padding: 1em 2em;
+        min-width: 150px;
+        min-height: 50px;
+        background: none;
+        position: relative;
+        cursor: pointer;
+        box-shadow: inset -2px 1px 11px rgba(0,0,0,0.5);
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    text-transform: uppercase;
+}
+svg {
+    position: absolute;
+    inset: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 5px;
+    stroke-dasharray: 33 297;
+    stroke-dashoffset: 50;
+    transition: all 0.5s linear;
+}
+.save:hover {
+    background-color: #8c9691;
+    box-shadow: none;
+}
+.save:hover svg {
+    stroke-width: 3px;
+    stroke-dashoffset: -500;
+}
+.save:active {
+    transform: scale(1.001);
+    background-color: #73dcae;
+}
+
+.back-to-game {
+    margin-top: 4%;
+    color: white;
+    border: 0px solid #fff;
+    padding: 1em 2em;
+    min-width: 150px;
+    min-height: 50px;
+    background: none;
+    position: relative;
+    cursor: pointer;
+    box-shadow: inset -2px 1px 11px rgba(0,0,0,0.5);
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    text-transform: uppercase;
+}
+svg {
+    position: absolute;
+    inset: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 5px;
+    stroke-dasharray: 33 297;
+    stroke-dashoffset: 50;
+    transition: all 0.5s linear;
+}
+.back-to-game:hover {
+    background-color: #8c9691;
+    box-shadow: none;
+}
+.back-to-game:hover svg {
+    stroke-width: 3px;
+    stroke-dashoffset: -500;
+}
+.back-to-game:active {
+    transform: scale(1.001);
+    background-color: #73dcae;
+}
+
+.retry {
+    margin-top: 4%;
+    color: white;
+    border: 0px solid #fff;
+    padding: 1em 2em;
+    min-width: 150px;
+    min-height: 50px;
+    background: none;
+    position: relative;
+    cursor: pointer;
+    box-shadow: inset -2px 1px 11px rgba(0,0,0,0.5);
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    text-transform: uppercase;
+}
+svg {
+    position: absolute;
+    inset: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 5px;
+    stroke-dasharray: 33 297;
+    stroke-dashoffset: 50;
+    transition: all 0.5s linear;
+}
+.retry:hover {
+    background-color: #8c9691;
+    box-shadow: none;
+}
+.retry:hover svg {
+    stroke-width: 3px;
+    stroke-dashoffset: -500;
+}
+.retry:active {
+    transform: scale(1.001);
+    background-color: #73dcae;
+}

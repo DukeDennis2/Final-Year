@@ -1,0 +1,11 @@
+{
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    },
+    
+    "jest": {
+        "testEnvironment": "jsdom"
+      }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to NBA: Hit or Miss</title>
+    <link rel="stylesheet" href="css/gamemode.css">
+   
+</head>
+
+<nav>
+    <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><img src="img/icons8-x-100.png" style="width: 20px; height: 20px;"></a></li>
+        <li><a a href="UserHomePage.html">Home</a></li>
+        <li><a a href="gameMode.html">Game Modes</a></li>
+        <li><a a href="register.html">Logout</a></li>
+
+    </ul>
+    <ul>
+        <li ><a href="UserHomePage.html">NBA: Hit or Miss</a></li>
+        <li class="hideOnMobile"><a a href="register.html">Logout</a></li>
+        <li onclick=showSidebar()><a href="#"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="24px" height="24px"><path d="M 3 9 A 1.0001 1.0001 0 1 0 3 11 L 47 11 A 1.0001 1.0001 0 1 0 47 9 L 3 9 z M 3 24 A 1.0001 1.0001 0 1 0 3 26 L 47 26 A 1.0001 1.0001 0 1 0 47 24 L 3 24 z M 3 39 A 1.0001 1.0001 0 1 0 3 41 L 47 41 A 1.0001 1.0001 0 1 0 47 39 L 3 39 z"/></svg></a></li>
+    </ul>
+</nav>
+<body>
+    <div class="gm">
+        Game Mode: Choose which mode you want to play 
+    </div>
+   
+    <section class="grid1">
+        <!-- -->
+            <div class="box">
+                <img width="280px" src="https://i.pinimg.com/originals/5e/ee/bc/5eeebc62709d7e22f99a9a9d6c5e359e.gif">
+                    <h2> Guessing Player </h2>
+                    <h3> In this mode, you have to name as many players as you can. <br><br>
+                         Remember: <br><br>
+                         - if the timer runs out the game ends <br>
+                         - if you guess wrong the game ends <br>
+                         - make sure you spell and use correct punctuation <br>
+                         - words are case Sensitive </h3>
+                    <a href="GuessPlayer.html"> Click here to start the game</a>
+
+            </div>
+            <div class="box">
+                 <img width="280px" src="https://giffiles.alphacoders.com/218/218879.gif">
+                    <h2> NBA Championships </h2>
+                    <h3> In this mode, you are given two nba players andyou are to choose out of the two, who has scored more <br><br>
+                        Remember: <br><br>
+                        - if you guess wrong the game ends <br>
+                        
+                    <a href="championship.html">Click Here to start the game</a>
+
+            </div>
+            <div class="box">
+                <img width="280px" src="https://i.gifer.com/7Pat.gif">
+                    <h2> Points average </h2>
+                    <h3> In this mode, you are given an nba player and depending on the question you have to either answer if they have averaged more or less assists. <br><br>
+                        Remember: <br><br>
+                        - if the timer runs out the game ends <br>
+                        - if you guess wrong the game ends <br>
+                        - make sure you spell and use correct punctuation <br>
+                        - words are case Sensitive </h3>
+                    <a href="pointsaverage.html">Click here to start the game</a>
+            </div>
+    
+    </section>
+        
+      
+    
+    <script>
+        function redirectToHomePage() {
+            window.location.href = 'UserHomePage.html';
+        }
+    </script>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

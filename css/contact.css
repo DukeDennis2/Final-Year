@@ -1,0 +1,249 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans--apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2))url('https://greekreporter.com/wp-content/uploads/2023/04/nba-ball-general-view-credit-nba.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-image: url("https://w0.peakpx.com/wallpaper/256/896/HD-wallpaper-lebron-james-anthony-davis-cavs-king-james-kobe-bryant-lakers-miami-heat-nba.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+nav {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+  
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    
+}
+nav li{
+    height: 50px;
+}
+nav a{
+   height: 100%;
+   padding: 0% 30px;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   color: white;
+}
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.557);
+} 
+nav li:first-child{
+    margin-right: auto;
+}.sidebar{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(8, 1, 1, 0.841);
+    backdrop-filter: blur(10px);
+    box-shadow: -1-px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%
+}
+.menu-button{
+    display: none;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    menu-button{
+        display: block;
+    }
+}
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%
+    }
+}
+
+
+/* For the contact form format */
+.contact{
+    min-height: 100vh;
+    background-color: grey;
+    padding: 50px;
+    text-align: center;
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 800px;
+    margin:0 auto;
+    padding: 50px;
+    text-align: center;
+}
+.container h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: white;
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.contact-form{
+    text-align: left;
+}
+.comtact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:rgb(255, 255, 255);
+}
+.form-group{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+}
+input, textarea{
+    width:200px;
+    padding:20px;
+    border-radius: 8px;
+    border:none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+input:focus, textarea:focus{
+    outline:none;
+    box-shadow: 0, 0, 8px black;
+}
+button{
+    display: inline-block; 
+    padding: 12px 24px;
+    background-color: rgba(119, 19, 207, 0.805);
+    color: white ;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 70px;
+}
+button:hover{
+    background-color: darkgrey;
+}
+contact-info{
+    text-align: left;
+}
+
+.contact-info h3{
+    color: white;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+.contact-info p{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    text-align: left;
+
+}
+.contact-info i{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.contact-info{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 1350px;
+    max-height: 1350px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.contact-info span{
+    letter-spacing:10px;
+    font-size: 4em;
+}
+
+.contact-info h1{
+    font-size: 1.5em;
+    color: white;
+}
+
+.contact-info a{
+    text-decoration: none;
+    background: plum;
+    padding: 10px 10px;
+    color: white;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+
+.contact-info a:hover{
+    border: 1px solid plum;
+    background: transparent;
+}
+
+.contact-info p{
+    color: white;
+    font-size: 1em;
+
+}
+
+.back-to-home-button {
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none; /* Remove underline for links */
+}
+
+.back-to-home-button a {
+    color: black; /* Set the text color to your preference */
+    text-decoration: none; /* Remove underline for links */
+}
+
+.back-to-home-button:hover {
+    background-color: #f0f0f0; /* Change the background color on hover if desired */
+}
+

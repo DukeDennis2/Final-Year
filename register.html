@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+		<!-- Bootstrap theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/register.css">
+		<title>Register and Login</title>
+	</head>
+
+		
+	<body>
+
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+
+		</div>
+		<div class="navbar-collapse collapse"  >
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#" id="logout" style="display: none;">Log Out</a></li>
+			</ul>
+		</div>
+		</div>
+		<br>
+		<div class="container">	
+		<form name="registration_form" id="registration_form" method="post" action="#" enctype="multipart/form-data" >
+		<div class="row">
+
+			<div class="col-sm-4">
+				<div class="form-group">
+					<h2> Create user  </h2>
+
+					<h2> Register </h2>
+				<label for="email">Email</label>
+				<input type="text" name="useremail" id="useremail" class="form-control" placeholder="Enter your email">
+				</div>
+				
+				<div class="form-group">
+				<label for="password" >Password</label>
+				<input type="password" name="userpassword" id="userpassword" class="form-control"  placeholder="Enter your password">
+				</div>
+				<button type="button" id="userregister" name="userregister" class="onClick">Register Now</button>
+			</div><!-- end col -->
+			</form>
+		
+			<form name="login_form" id="login_form" method="post" action="#" enctype="multipart/form-data" >
+			<div class="col-sm-4">
+				<div class="form-group">
+					<br><br>
+					<h2> Login </h2>
+				<label for="email">Email</label>
+				<input type="text" name="login_email" id="login_email" class="form-control" placeholder="Enter your email">
+				</div>
+				
+				<div class="form-group">
+				<label for="password">Password</label>
+				<input type="password" name="login_password" id="login_password" class="form-control"  placeholder="Enter your password">
+				</div>
+				<button type="button" id="login" name="login" class="onClick">Login</button>
+			</div>
+			
+		</div>		
+		</form>
+		</div>
+		<br>
+
+		<button class="onClick2" onclick="location.href = 'welcome.html';">Go Back</button>
+		<button class="onClick2" onclick="location.href = 'admin.html';">Admin</button>
+
+
+	</body>
+
+
+
+
+	<script type="module">
+		
+	 	import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+        import { getDatabase } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-database.js";
+        import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
+        import { getFirestore, collection, addDoc} from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
+
+        const firebaseConfig = {
+        apiKey: "AIzaSyABlt5RFJLPMjDyAnY9-CeXdbs7u4SiD6s",
+        authDomain: "development-login-b04f3.firebaseapp.com",
+        projectId: "development-login-b04f3",
+        storageBucket: "development-login-b04f3.appspot.com",
+        messagingSenderId: "122944613775",
+        appId: "1:122944613775:web:9f231aaba55a242ee3affa", 
+
+		databaseURL: "https://development-login-b04f3-default-rtdb.europe-west1.firebasedatabase.app" 
+
+      };
+
+	  // Initialize Firebase
+	  const app = initializeApp(firebaseConfig);
+	  const database = getDatabase(app);
+	  const auth = getAuth();
+      const db = getFirestore();
+	  console.log(app);
+
+	  //----- NEW USER REGISTRATION CREATED AND SEAVED TO AUTHENTICATION TABLE ON FIREBASE 	  
+	  document.getElementById("userregister").addEventListener("click", function() {
+		  var email =  document.getElementById("useremail").value;
+		  var password = document.getElementById("userpassword").value;
+		  //For new registration
+		  createUserWithEmailAndPassword(auth, email, password)
+		  .then((userCredential) => {
+		    // USER CREATED 
+		    const user = userCredential.user;
+		    console.log(user);
+		    alert("Registered successfully!!");
+		    
+			const userData = {
+				email:email,
+				password: password,
+			};
+
+			addDoc(collection(db, "User"), userData)
+                .then((docRef) => {
+                console.log("User document has been created with ID: ", docRef.id);
+                })
+                .catch((error) => {
+                console.error("Error adding User document: ", error);
+                });
+
+		  })
+		  .catch((error) => {
+		    const errorCode = error.code;
+		    const errorMessage = error.message;
+		    console.log(errorMessage);
+		    alert(error);
+		  });		  		  
+	  });
+
+	  //----- REGISTRATION FUNCTION - DATA CREATED AND STORED INTO REALTIME DATABASE 
+
+
+	  //----- LOGIN FUNCTION - AUTHENTICATION   
+	  document.getElementById("login").addEventListener("click", function() {
+		  var email =  document.getElementById("login_email").value;
+		  var password = document.getElementById("login_password").value;
+
+		  signInWithEmailAndPassword(auth, email, password)
+		  .then((userCredential) => {
+		    // Signed in 
+		    const user = userCredential.user;
+		    console.log(user);
+		    alert(user.email+" Login successfully!!!");
+		    document.getElementById('logout').style.display = 'block';
+		    window.location.assign("UserHomePage.html");
+		  })
+		  .catch((error) => {
+		    const errorCode = error.code;
+		    const errorMessage = error.message;
+		    console.log(errorMessage);
+		    alert(errorMessage);
+		  });		  		  
+	  });
+	  //----- End
+
+	  //----- Logout code start	  
+	  document.getElementById("logout").addEventListener("click", function() {
+		  signOut(auth).then(() => {
+			  // Sign-out successful.
+			  console.log('Sign-out successful.');
+			  alert('Sign-out successful.');
+			  document.getElementById('logout').style.display = 'none';
+			}).catch((error) => {
+			  // An error happened.
+			  console.log('An error happened.');
+			});		  		  
+	  });
+
+	  $(document).ready(function() {
+  $("#register").click(function() {
+    var email = $("#email").val();
+    var password = $("#password").val();
+
+    if (email == "") {
+      alert("Please enter your email");
+      return false;
+    }
+
+    if (password == "") {
+      alert("Please enter your password");
+      return false;
+    }
+
+	if (password.length < 8) {
+      alert("Password must be at least 8 characters long");
+      return false;
+    }
+
+    if (!/[0-9]/.test(password)) {
+      alert("Password must contain at least one number");
+      return false;
+    }
+
+    if (!/[!@#$%^&*(),.?":{}|<>]/.test(password)) {
+      alert("Password must contain at least one special character");
+      return false;
+    }
+
+    // Add more validation rules as needed
+  });
+
+  $("#login").click(function() {
+    var email = $("#login_email").val();
+    var password = $("#login_password").val();
+
+	if (email == "" && password == "") {
+      alert("Please enter your email and password");
+      return false;
+    }
+
+    if (email == "") {
+      alert("Please enter your email");
+      return false;
+    }
+
+    if (password == "") {
+      alert("Please enter your password");
+      return false;
+    }
+
+    // Add more validation rules as needed
+  });
+});
+	  //----- End
+	</script>
+
+
+</html>

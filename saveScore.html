@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saving Score</title>
+    <link rel="stylesheet" href="css/saveScore.css">
+
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+
+            <h1> Fill the spaces to save your score  </h1>
+
+            <label>  Name </label>
+            <input type="text" id="username"> </input>
+            <br>
+
+        
+            <label> Mode </label>
+            <input type="text" id="Mode"> </input>
+            <br>
+
+            <label> Score </label>
+            <input type="text " id="Score"> </input>
+            <br>
+
+            
+            <button class="saveBtn" id="saveBtn"><?xml version="1.0" encoding="UTF-8"?>
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265 63.6">
+                    <rect width="265" height="63.6"/>
+                    <line class="cls-1" y1="2.5" x2="214" y2="2.5"/>
+                </svg>
+                <a href="">Save</a></button>
+
+                <p id="successMessage" style="display: none;">Your score has been saved successfully.</p>
+
+
+                <button class="backLobby" id="backLobby" onclick="backToMode()">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265 63.6">
+                        <rect width="265" height="63.6"/>
+                        <line class="cls-1" y1="2.5" x2="214" y2="2.5"/>
+                    </svg>
+                    Back to the Lobby
+                </button>
+                
+        </div> 
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-database-compat.js"></script>
+    
+
+    <script>
+          const firebaseConfig = {
+          databaseURL: "https://development-project-c9c18-default-rtdb.firebaseio.com" 
+            };
+            firebase.initializeApp(firebaseConfig);
+            const database = firebase.database();
+
+            // Select the button by its class
+            const submit = document.querySelector('.saveBtn');
+            
+            // Add click event listener to the button
+            submit.addEventListener('click', sendData);
+
+
+            //created a function to send data to my realtime database 
+            function sendData() {
+                var name = document.querySelectorAll('input')[0].value;
+                var mode = document.querySelectorAll('input')[1].value;
+                var score = document.querySelectorAll('input')[2].value;
+
+                var data = {
+                    name: name,
+                    mode: mode,
+                    score: score
+                };
+
+                //this code will set the path as to where the data will be stored 
+                var listRef = database.ref('scores');
+                listRef.push(data);
+              
+            }
+    </script>
+
+    <script>
+            function backToMode() {
+            window.location.href = 'gameMode.html';
+        }
+    </script>
+
+    <script>
+            function displaySuccessMessage() {
+            var successMessage = document.getElementById('successMessage');
+            successMessage.style.display = 'block'; // Display the success message
+            setTimeout(function() {
+                successMessage.style.display = 'none'; // Hide the success message after a delay
+            }, 3000); // 3000 milliseconds = 3 seconds
+        }
+
+        //NEED TO MAKE A FUNCTION WHERE USER IS NOTIFIED THAT THEIR SCORE HAS BEEN SAVED
+
+
+    </script>
+
+</body>
+
+</html>

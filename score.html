@@ -1,0 +1,38 @@
+<script>
+    const players = [
+        { name: 'LeBron James', imageUrl: 'https://media.cnn.com/api/v1/images/stellar/prod/230523093708-01-lebron-james-052223.jpg?c=original' },
+        // Add more players with their images
+    ];
+
+    let currentQuestionIndex = 0;
+    let userScore = 0;
+
+    function loadNextPlayer() {
+        if (currentQuestionIndex < players.length) {
+            const currentPlayer = players[currentQuestionIndex];
+            document.getElementById('player-image').src = currentPlayer.imageUrl;
+            document.getElementById('guess-input').value = '';
+            document.getElementById('result-message').textContent = '';
+        } else {
+            alert('Game Over! You have completed all players. Your score: ' + userScore);
+        }
+    }
+
+    function checkGuess() {
+        const currentPlayer = players[currentQuestionIndex];
+        const userGuess = document.getElementById('guess-input').value.toLowerCase();
+
+        if (userGuess === currentPlayer.name.toLowerCase()) {
+            document.getElementById('result-message').textContent = 'Correct! Well done!';
+            userScore++;
+        } else {
+            document.getElementById('result-message').textContent = 'Incorrect. Try again!';
+        }
+
+        currentQuestionIndex++;
+        loadNextPlayer();
+    }
+
+    // Initial load
+    loadNextPlayer();
+</script>

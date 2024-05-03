@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to NBA: Hit or Miss</title>
+    <link rel="stylesheet" href="css/userhomepage.css">
+    
+ </head>
+
+ <nav>
+    <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><img src="img/icons8-x-100.png" style="width: 20px; height: 20px;"></a></li>
+        <li><a a href="UserHomePage.html">Home</a></li>
+        <li><a a href="gameMode.html">Game Modes</a></li>
+        <li><a a href="features.html">Features</a></li>
+        <li><a a href="help.html">Help</a></li>
+        <li><a a href="register.html">Logout</a></li>
+
+    </ul>
+    <ul>
+        <li ><a href="UserHomePage.html">NBA: Hit or Miss</a></li>
+        <li class="hideOnMobile"><a a href="gameMode.html">Game Modes</a></li>
+        <li class="hideOnMobile"><a a href="features.html">Features</a></li>
+        <li class="hideOnMobile"><a a href="help.html">Help</a></li>
+        <li class="hideOnMobile"><a a href="register.html">Logout</a></li>
+        <li onclick=showSidebar()><a href="#"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="24px" height="24px"><path d="M 3 9 A 1.0001 1.0001 0 1 0 3 11 L 47 11 A 1.0001 1.0001 0 1 0 47 9 L 3 9 z M 3 24 A 1.0001 1.0001 0 1 0 3 26 L 47 26 A 1.0001 1.0001 0 1 0 47 24 L 3 24 z M 3 39 A 1.0001 1.0001 0 1 0 3 41 L 47 41 A 1.0001 1.0001 0 1 0 47 39 L 3 39 z"/></svg></a></li>
+    </ul>
+ </nav>
+
+ <body>
+
+
+    <div class="scoreboard">
+        <h1>Scoreboard</h1>
+    </div>
+
+    <div class="container">
+        <table class="table table-dark table-striped table-hover table-bordered spaced-table">
+            <thread>
+                <th>Name</th>
+                <th>Mode</th>
+                <th>Score</th>
+                
+            </thread>
+            <tbody id="tbody1"></tbody>
+        </table>
+
+     </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js"></script>
+    <script src="js/leaderboard.js"></script> <!-- Link to the JavaScript file -->
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
+        import { getDatabase, ref, child, get } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCTsMfSrm4hO6o-Q16MCz_VehWRyRqpnvA",
+            authDomain: "development-project-c9c18.firebaseapp.com",
+            databaseURL: "https://development-project-c9c18-default-rtdb.firebaseio.com",
+            projectId: "development-project-c9c18",
+            storageBucket: "development-project-c9c18.appspot.com",
+            messagingSenderId: "201727681044",
+            appId: "1:201727681044:web:9cc8e8a0e7a83d9709fd01"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase();
+
+        var nameNo = 0;
+        var tbody = document.getElementById("tbody1");
+
+        function AddItemTotable(name, mode, score) {
+            // Create a new row
+            let trow = document.createElement("tr");
+
+            // Create table data cells
+            let td1 = document.createElement("td");
+            let td2 = document.createElement("td");
+            let td3 = document.createElement("td");
+            let td4 = document.createElement("td"); // Define td4
+            let td5 = document.createElement("td"); // Define td4
+
+
+            // Set inner content for each cell
+            td1.innerHTML = name;
+            td2.innerHTML = mode;
+            td3.innerHTML = score;
+
+            // Append cells to the row
+            trow.appendChild(td1);
+            trow.appendChild(td2);
+            trow.appendChild(td3);
+            trow.appendChild(td4);
+            trow.appendChild(td5);
+
+
+            // Append the row to the table body
+            tbody.appendChild(trow);
+        }
+
+        function AddAllItemsToTable(TheName) {
+            nameNo = 0; // Reset the name number
+            tbody.innerHTML = ""; // Clear the existing content
+            TheName.forEach(element => {
+                AddItemTotable(element.name, element.mode, element.score);
+            });
+        }
+
+        // Retrieve the data from the database
+        function GetAllDataOnce() {
+            const dbRef = ref(db);
+            get(child(dbRef, "scores"))
+                .then((snapshot) => {
+                    if (snapshot.exists()) {
+                        const names = [];
+                        snapshot.forEach(childSnapshot => {
+                            names.push(childSnapshot.val());
+                        });
+                        AddAllItemsToTable(names); // Add the fetched data to the table
+                    } else {
+                        console.log("No data available.");
+                    }
+                })
+                .catch((error) => {
+                    console.error("Error fetching data:", error);
+                });
+        }
+
+        // Load the data when the window loads
+        window.onload = GetAllDataOnce;
+    </script>
+ </body>
+ </script>
+</html>

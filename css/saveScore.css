@@ -1,0 +1,143 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans--apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, "sans-serif";
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(165, 165, 165);
+    background-size: 80%;
+}
+
+.form {
+
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height of the container to fill the entire viewport */
+}
+
+h1{
+    color: white;
+    margin-bottom: 10%;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+label{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+input{
+    height: 3%;
+    width: 25%;
+}
+
+/*  my save button and effects */
+.saveBtn{
+    width: 15%;
+    height: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+.saveBtn {
+    border: 0px solid #fff;
+    padding: 1em 2em;
+    min-width: 150px;
+    min-height: 50px;
+    background: none;
+    position: relative;
+    cursor: pointer;
+    box-shadow: inset -2px 1px 11px rgba(0,0,0,0.5);
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    text-transform: uppercase;
+}
+svg {
+    position: absolute;
+    inset: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 5px;
+    stroke-dasharray: 33 297;
+    stroke-dashoffset: 50;
+    transition: all 0.5s linear;
+}
+.saveBtn:hover {
+    background-color: #85a296;
+    box-shadow: none;
+}
+.saveBtn:hover svg {
+    stroke-width: 3px;
+    stroke-dashoffset: -500;
+}
+.saveBtn:active {
+    transform: scale(1.001);
+    background-color: #73dcae;
+}
+
+
+/* my back to lobby function and effect */
+
+#backLobby {
+    margin-top: 4%;
+    color: white;
+    border: 0px solid #fff;
+    padding: 1em 2em;
+    min-width: 150px;
+    min-height: 50px;
+    background: none;
+    position: relative;
+    cursor: pointer;
+    box-shadow: inset -2px 1px 11px rgba(0,0,0,0.5);
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    text-transform: uppercase;
+}
+svg {
+    position: absolute;
+    inset: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 5px;
+    stroke-dasharray: 33 297;
+    stroke-dashoffset: 50;
+    transition: all 0.5s linear;
+}
+#backLobby:hover {
+    background-color: #85a296;
+    box-shadow: none;
+}
+#backLobby:hover svg {
+    stroke-width: 3px;
+    stroke-dashoffset: -500;
+}
+#backLobby:active {
+    transform: scale(1.001);
+    background-color: #73dcae;
+}
+    
+.table{
+    background-color: rgb(56, 56, 56);
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    margin-left: 10%;
+    padding: 5px 2px;
+  ;
+}

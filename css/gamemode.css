@@ -1,0 +1,221 @@
+@import url('https://fonts.google.com/specimen/barlow');
+
+* {
+    margin: 0%;
+    padding: 0;
+    font-family: sans--apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+}
+
+
+body {
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/81/6e/2c/816e2c9d3c480b33ca02d03f6b4620a1.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    background-position: bottom;
+    background-color:rgb(0, 0, 0) ;
+    transition: 0.4s;
+
+}
+
+header {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+nav {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+  
+}
+nav ul{
+    width: 100%;
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    
+}
+nav li{
+    height: 50px;
+}
+nav a{
+   height: 100%;
+   padding: 0% 30px;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   color: white;
+}
+nav a:hover{
+    border-bottom: 1px solid #ffffff;
+} 
+nav li:first-child{
+    margin-right: auto;
+}.sidebar{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(8, 1, 1, 0.841);
+    backdrop-filter: blur(10px);
+    box-shadow: -1-px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%
+}
+.menu-button{
+    display: none;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    menu-button{
+        display: block;
+    }
+}
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%
+    }
+}
+.gm {
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+    margin: 50px 0;
+}
+
+
+button {
+    margin-top: 2%;
+    color: #ffffff;
+    margin-left: 20%;
+    font-weight: 100;
+    padding: px 10px;
+    border: none;
+    background: none;
+    font-size: 13px;
+    border-color: #ffffff6f;
+}
+
+section{
+    padding: 20px ;
+    text-align: center;
+}
+
+
+/* THIS SECTION IS A CLASS */
+.grid1{
+    padding: 38px;
+    display:grid;
+    gap: 10px;
+    background-color: transparent;
+}
+.back a{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    
+}
+.back.visible {
+    opacity: 1;
+}
+
+@media (min-width: 768px) {
+    .grid1{
+        grid-template-columns: 1fr 1fr ;
+    }
+    
+}
+@media (min-width: 960px) {
+    .grid1{
+        grid-template-columns: 1fr 1fr 1fr ;
+        margin-top: 10%;
+    }
+    
+}
+
+.box{
+    background-color:#0707077d;
+    margin-bottom: 16px;
+    padding: 6px;
+}
+.box h2{
+    font-weight: 100;
+    font-size: 25px;
+}
+.box h3{
+    font-weight: 100;
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+.box a{
+    padding: 10px 25px;
+    position:relative;
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 16px;
+    
+}
+
+/* THESE ARE THE DESIGNS FOR THE BUTTONS THAT WILL 
+   USER BACK TO THE TOP OF THE SCREEN*/
+.box a:hover{
+    color: rgb(240, 120, 140);
+}
+
+
+
+
+
+
+
+
+
+/* Increase text size and color for the welcome message */
+.welcome-message {
+    color: white;
+    font-size: 24px; /* Adjust the size as needed */
+    text-align: center; /* Center text horizontally */
+}
+
+/* Add styles for the homepage links */
+.homepage a {
+    color: white;
+    font-size: 18px; /* Adjust the size as needed */
+    margin: 0 10px; /* Add spacing between links */
+    text-decoration: none;
+}
+
+/* Add styles for the logout button */
+.logout a {
+    color: white;
+    font-size: 18px; /* Adjust the size as needed */
+    text-decoration: none;
+}

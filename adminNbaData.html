@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-chrome">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome to NBA: Hit or Miss</title>
+        <link rel="stylesheet" href="css/AdminHomePage.css">
+    </head>
+
+    <script src="js/admin.js"></script>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><img src="img/icons8-x-100.png" style="width: 20px; height: 20px;"></a></li>
+            <li><a a href="AdminHomePage.html">Home</a></li>
+            <li><a a href="gameMode.html">Game Modes</a></li>
+            <li><a a href="features.html">Features</a></li>
+            <li><a a href="help.html">Help</a></li>
+            <li><a a href="register.html">Logout</a></li>
+    
+        </ul>
+        <ul>
+            <li ><a href="#">NBA: Hit or Miss</a></li>
+            <li class="hideOnMobile"><a a href="AdminHomePage.html">Home</a></li>
+            <li class="hideOnMobile"><a a href="features.html">Features</a></li>
+            <li class="hideOnMobile"><a a href="help.html">Help</a></li>
+            <li class="hideOnMobile"><a a href="register.html">Logout</a></li>
+            <li onclick=showSidebar()><a href="#"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="24px" height="24px"><path d="M 3 9 A 1.0001 1.0001 0 1 0 3 11 L 47 11 A 1.0001 1.0001 0 1 0 47 9 L 3 9 z M 3 24 A 1.0001 1.0001 0 1 0 3 26 L 47 26 A 1.0001 1.0001 0 1 0 47 24 L 3 24 z M 3 39 A 1.0001 1.0001 0 1 0 3 41 L 47 41 A 1.0001 1.0001 0 1 0 47 39 L 3 39 z"/></svg></a></li>
+        </ul>
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar(){
+                const sidebar = document.querySelector('sidebar')
+                sidebar.style.display = 'hide'
+            }
+           
+        </script>
+
+    </nav>
+
+    <body>
+
+        <label> First Name </label>
+        <input type="text" name="firstName" id="firstName" placeholder="First Name">
+
+        <br><br>
+
+        <label> Last Name </label>
+        <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+
+        <br><br>
+
+        <label> NBA Team </label>
+        <select id="team">
+            <option value="">Option</option>
+            <option value="Atalnta Hawks">Atlanta Hawks</option>
+            <option value="Boston Celtics">Boston Celtics</option>
+            <option value="Brooklyn Nets">Brooklyn Nets</option>
+            <option value="Charlotte Hornets">Charlotte Hornets</option>
+            <option value="Cjhicago Bulls">Chicago Bulls</option>
+            <option value="Cleveland cavaliers">Cleveland Cavaliers</option>
+            <option value="Dallas Mavericks">Dallas Mavericks</option>
+            <option value="Denver Nuggets">Denver Nuggets</option>
+            <option value="Detroit Pistons">Detroit Pistons</option>
+            <option value="Golden State Warriors">Golden State Warriors</option>
+            <option value="Houston Rockets">Houston Rockets</option>
+            <option value="Indiana Pacers">Indiana Pacers</option>
+            <option value="Los Angeles Clippers">Los Angeles Clippers</option>
+            <option value="Los Angeles Lakers">Los Angeles Lakers</option>
+            <option value="Memphis Grizzlies">Memphis Grizzlies</option>
+            <option value="Miami Heat">Miami Heat</option>
+            <option value=" Milwaukee Bucks ">Milwaukee Bucks</option>
+            <option value="Minnesota Timberwolves">Minnesota Timberwolves</option>
+            <option value="New Orleans Pelicans">New Orleans Pelicans</option>
+            <option value="New York Knicks">New York Knicks</option>
+            <option value="Oklohoma City Thunder">Oklahoma City Thunder</option>
+            <option value="Orlando MAgic">Orlando Magic</option>
+            <option value="Philidelphia 76rs ">Philadelphia 76ers</option>
+            <option value="Phoenix Suns">Phoenix Suns</option>
+            <option value="Portland Trailblazer">Portland Trail Blazers</option>
+            <option value="Sacramento Kings">Sacramento Kings</option>
+            <option value="san Antonio Spurs">San Antonio Spurs</option>
+            <option value="Toronto Raptors">Toronto Raptors</option>
+            <option value="Utah Jazz">Utah Jazz</option>
+            <option value="Washington Wzard">Washington Wizards</option>
+         
+        </select>
+
+        <br><br>
+
+        <label> Position </label>
+        <select id="position">
+            <option value="">Option</option>
+            <option value="point-guard">Point Guard</option>
+            <option value="shooting-guard">Shooting Guard</option>
+            <option value="small-forward">Small Forward</option>
+            <option value="power-forward">Power Forward</option>
+            <option value="center">Center</option>
+
+        </select>
+    
+        <br><br>
+        <label> NBA no </label>
+        <input type="number" id="NbaNo" placeholder="Jersey Number"> 
+        <br><br>
+
+        <div class="buttons"> 
+            <button id="addButton">Add</button>
+            <button id="retrieveButton">Retrieve</button>
+            <button id="updateButton">Update</button>
+            <button id="deleteButton">Delete</button>
+            <button id="clearButton">Clear</button>
+
+         </div>
+
+     <div class="container">
+        <table class="table">
+            <thread>
+                <th>Pno</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Team</th>
+                <th>Position</th>
+                <th>NBA No</th>
+            </thread>
+            <tbody id="tbody1"></tbody>
+
+        </table>
+
+     </div>
+
+
+     <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
+        import { getDatabase, set, ref, get, update, remove, child } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js";
+    
+        // Firebase configuration and initialization
+        const firebaseConfig = {
+            apiKey: "AIzaSyCTsMfSrm4hO6o-Q16MCz_VehWRyRqpnvA",
+            authDomain: "development-project-c9c18.firebaseapp.com",
+            databaseURL: "https://development-project-c9c18-default-rtdb.firebaseio.com",
+            projectId: "development-project-c9c18",
+            storageBucket: "development-project-c9c18.appspot.com",
+            messagingSenderId: "201727681044",
+            appId: "1:201727681044:web:9cc8e8a0e7a83d9709fd01"
+        };
+    
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+    
+        // Form references
+        const firstNameInput = document.getElementById('firstName');
+        const lastNameInput = document.getElementById('lastName');
+        const teamSelect = document.getElementById('team');
+        const positionSelect = document.getElementById('position');
+        const NbaNoInput = document.getElementById('NbaNo');
+
+        // Ensure the NBA Number (or other unique identifier) is correct
+        const NbaNo = NbaNoInput.value;  // This should be a unique identifier
+
+
+        //button consts
+        const addButton = document.getElementById('addButton');
+        const retrieveButton = document.getElementById('retrieveButton');
+        const updateButton = document.getElementById('updateButton');
+        const deleteButton = document.getElementById('deleteButton');
+
+    
+        clearButton.addEventListener('click', () => {
+        // Clear all input fields in the form
+        const firstNameInput = document.getElementById('firstName');
+        const lastNameInput = document.getElementById('lastName');
+        const teamSelect = document.getElementById('team');
+        const positionSelect = document.getElementById('position');
+        const NbaNoInput = document.getElementById('NbaNo');
+
+        firstNameInput.value = '';  // Clear the first name input
+        lastNameInput.value = '';  // Clear the last name input
+        teamSelect.value = '';  // Reset the team selection
+        positionSelect.value = '';  // Reset the position selection
+        NbaNoInput.value = '';  // Clear the NBA number input
+    });
+
+        // Function to add a player to the database, with duplicate check
+        function addPlayerData(player) {
+            const playerKey = player.firstName + player.lastName;  // Unique identifier based on first and last names
+        
+            return get(ref(db, 'NbaPlayers/' + playerKey))
+                .then((snapshot) => {
+                    if (snapshot.exists()) {
+                        throw new Error('Player already exists');
+                    } else {
+                        return set(ref(db, 'NbaPlayers/' + playerKey), {
+                            firstName: player.firstName,
+                            lastName: player.lastName,
+                            team: player.team,
+                            position: player.position,
+                            NbaNo: Number(player.NbaNo)  // Convert to number
+                        });
+                    }
+                });
+        }
+
+                // Function to retrieve a player from the database using first and last names
+            function retrievePlayerData(firstName, lastName) {
+                const playerKey = firstName + lastName;  // Create a unique key from first and last names
+
+                return get(child(ref(db), 'NbaPlayers/' + playerKey))  // Retrieve data from Firebase
+                    .then((snapshot) => {
+                        if (snapshot.exists()) {
+                            return snapshot.val();  // Return player data if it exists
+                        } else {
+                            throw new Error('NBA Player does not exist');  // Handle case when player doesn't exist
+                        }
+                    });
+            }
+
+
+        // Function to update a player's data
+        function updatePlayerData(player) {
+            const playerKey = player.firstName + player.lastName;
+            return update(ref(db, 'NbaPlayers/' + playerKey), {
+                team: player.team,
+                position: player.position,
+                NbaNo: Number(player.NbaNo)  // Convert to number
+            });
+        }
+    
+        // Function to delete a player from the database
+        function deletePlayerData(playerKey) {
+            const playerRef = ref(db, 'NbaPlayers/' + playerKey);
+            return remove(playerRef);
+        }
+    
+        // Event listeners for CRUD operations
+        addButton.addEventListener('click', () => {
+            const newPlayer = {
+                firstName: firstNameInput.value,
+                lastName: lastNameInput.value,
+                team: teamSelect.value,
+                position: positionSelect.value,
+                NbaNo: NbaNoInput.value
+            };
+    
+            addPlayerData(newPlayer)
+                .then(() => {
+                    console.log('Player added successfully');
+                    // Clear form
+                    firstNameInput.value = '';
+                    lastNameInput.value = '';
+                    teamSelect.value = '';
+                    positionSelect.value = '';
+                    NbaNoInput.value = '';
+                })
+                .catch((error) => {
+                    console.error('Error adding player:', error);
+                    if (error.message === 'Player already exists') {
+                        alert('Player with this name already exists');
+                    }
+                });
+        });
+            
+                        // Attach an event listener to the retrieve button
+        retrieveButton.addEventListener('click', () => {
+            const firstName = firstNameInput.value.trim();  // Get the first name and trim whitespace
+            const lastName = lastNameInput.value.trim();  // Get the last name and trim whitespace
+
+            if (!firstName || !lastName) {  // Correct condition to check for empty values
+                console.error("First or Last Name is empty or invalid");
+                return;  // Exit if the condition is met
+            }
+
+            console.log("Attempting to retrieve player:", firstName, lastName);  // Debug logging
+
+            retrievePlayerData(firstName, lastName)  // Corrected function call
+                .then((player) => {
+                    console.log('Player retrieved successfully:', player);
+
+                    // Update form with retrieved player data
+                    firstNameInput.value = player.firstName;
+                    lastNameInput.value = player.lastName;
+                    teamSelect.value = player.team;
+                    positionSelect.value = player.position;
+                    NbaNoInput.value = player.NbaNo;
+                })
+                .catch((error) => {
+                    console.error('Error retrieving player:', error);  // Handle retrieval errors
+                    alert('This player is not in the NBA');  // Inform the user about errors
+                });
+        });
+    
+        updateButton.addEventListener('click', () => {
+            const updatedPlayer = {
+                firstName: firstNameInput.value,
+                lastNameInput: lastNameInput.value,
+                team: teamSelect.value,
+                position: positionSelect.value,
+                NbaNo: NbaNoInput.value
+            };
+    
+            updatePlayerData(updatedPlayer)
+                .then(() => {
+                    console.log('Player updated successfully');
+                    // Clear form
+                    firstNameInput.value = '';
+                    lastNameInput.value = '';
+                    teamSelect.value = '';
+                    positionSelect.value = '';
+                    NbaNoInput.value = '';
+                })
+                .catch((error) => {
+                    console.error('Error updating player:', error);
+                });
+        });
+    
+        deleteButton.addEventListener('click', () => {
+            const playerKey = firstNameInput.value + lastNameInput.value;  // Unique identifier based on first and last name
+    
+            deletePlayerData(playerKey)
+                .then(() => {
+                    console.log('Player deleted successfully');
+                    // Clear form
+                    firstNameInput.value = '';
+                    lastNameInput.value = '';
+                    teamSelect.value = '';
+                    positionSelect.value = '';
+                    NbaNoInput.value = '';
+                })
+                .catch((error) => {
+                    console.error('Error deleting player:', error);
+                });
+        });
+
+
+
+                // Function to fetch all players and populate the table
+        function nbatable() {  // New function name
+            const tbody = document.getElementById('tbody1');  // Reference to the table body
+            tbody.innerHTML = '';  // Clear existing content
+
+            // Fetch all players from 'NbaPlayers'
+            get(ref(db, 'NbaPlayers'))
+                .then((snapshot) => {
+                    if (snapshot.exists()) {
+                        const players = snapshot.val();  // All player data
+
+                        // Iterate over each player and create a new table row
+                        let index = 1;  // Index for player numbering
+                        for (const key in players) {
+                            const player = players[key];  // Access player data
+
+                            // Create a new row with player data
+                            const row = document.createElement('tr');
+                            row.innerHTML = `
+                                <td>${index}</td>  <!-- Player index or unique identifier -->
+                                <td>${player.firstName}</td>
+                                <td>${player.lastName}</td>
+                                <td>${player.team}</td>
+                                <td>${player.position}</td>
+                                <td>${player.NbaNo}</td>
+                            `;
+
+                            tbody.appendChild(row);  // Add the row to the table
+                            index++;  // Increment index for the next player
+                        }
+                    } else {
+                        console.error("No players found in the database");
+                    }
+                })
+                .catch((error) => {
+                    console.error('Error fetching players:', error);  // Handle errors
+                });
+        }
+
+        // Attach an event listener to the retrieve button to populate the table
+        retrieveButton.addEventListener('click', nbatable);  // Corrected function reference
+
+        // Optional: Populate the table when the page loads
+        window.addEventListener('load', nbatable);
+
+        </script>
+    </body>
+</html>

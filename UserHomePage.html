@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to NBA: Hit or Miss</title>
+    <link rel="stylesheet" href="css/userhomepage.css">
+ </head>
+
+ <nav>
+    <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><img src="img/icons8-x-100.png" style="width: 20px; height: 20px;"></a></li>
+        <li><a a href="UserHomePage.html">Home</a></li>
+        <li><a a href="gameMode.html">Game Modes</a></li>
+        <li><a a href="register.html">Logout</a></li>
+
+    </ul>
+    <ul>
+        <li ><a href="UserHomePage.html">NBA: Hit or Miss</a></li>
+        <li class="hideOnMobile"><a a href="gameMode.html">Game Modes</a></li>
+        <li class="hideOnMobile"><a a href="register.html">Logout</a></li>
+        <li onclick=showSidebar()><a href="#"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="24px" height="24px"><path d="M 3 9 A 1.0001 1.0001 0 1 0 3 11 L 47 11 A 1.0001 1.0001 0 1 0 47 9 L 3 9 z M 3 24 A 1.0001 1.0001 0 1 0 3 26 L 47 26 A 1.0001 1.0001 0 1 0 47 24 L 3 24 z M 3 39 A 1.0001 1.0001 0 1 0 3 41 L 47 41 A 1.0001 1.0001 0 1 0 47 39 L 3 39 z"/></svg></a></li>
+    </ul>
+ </nav>
+ 
+ <body>
+      
+        <div class="h-text">
+            <span> Welcome User</span>
+            <h1>  </h1>
+            <br>
+
+            <a href="gameMode.html">Game mode</a> 
+            <a href="userleaderboard.html">scoreboard</a>
+
+           
+           
+        </div>
+
+        <div id="info" style="border: 1px solid rgb(255, 255, 255); display: none">
+            Some important information
+            <button onclick="dontShow()">Don't show again</button>
+        </div>
+        
+        
+     </body>
+    
+     <script>
+        let date = new Date(Date.now() + 86400e3);
+      date = date.toUTCString();
+      document.cookie = "user=User; expires=" + date;
+
+      function setCookie(name, value, exdays) {
+        let expires = "";
+        if (exdays) {
+          let date = new Date();
+          date.setTime(date.getTime() + exdays * 24 * 60 * 60 * 1000);
+          expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie =
+          name + "=" + (encodeURIComponent(value) || "") + expires + "; path=/";
+      }
+
+      setCookie("user2", "User", 7);
+
+      //max-age
+      document.cookie = "user2=User; max-age=200";
+
+      //get cookie
+      function getCookie(name) {
+        let nameEQ = name + "=";
+        let ca = document.cookie.split(";");
+        for (let i = 0; i < ca.length; i++) {
+          let c = ca[i];
+          while (c.charAt(0) == " ") c = c.substring(1, c.length);
+          if (c.indexOf(nameEQ) == 0)
+            return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+      }
+
+      //remove cookie
+
+      function removeCookie(name) {
+        document.cookie =
+          name + "=; path=/; expires=Tue, 18 April 2024 00:20:01 GMT;";
+      }
+
+      console.log(document.cookie);
+      removeCookie("user3");
+      console.log(document.cookie);
+
+      function dontShow() {
+        setCookie("dontShow", "true", 365);
+        document.getElementById("info").style.display = "none";
+      }
+      if (!getCookie("dontShow"))
+        document.getElementById("info").style.display = "block";
+     </script>
+
+
+
+        <script src="js/index.js"></script>
+
+      
+
+
+
+
+ </body>
+
+</html>
+
+
+
+
+
+
+

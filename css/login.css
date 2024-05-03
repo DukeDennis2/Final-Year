@@ -1,0 +1,355 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+
+* {
+    margin: 0%;
+    padding: 0;
+    font-family: sans--apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+}
+
+
+/* THIS IS FOR THE HTML INDEX*/
+body {
+    background-image: url('https://dig.abclocal.go.com/kabc/kobe/img/kobe7.jpg');
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    menu-button{
+        display: block;
+    }
+}
+
+.navigation {
+    display: flex;
+}
+nav {
+    flex: 2;
+    text-align: right;
+    margin-bottom: 6px;
+}
+nav h1{
+    margin-right: 15%
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 100;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+nav a{
+    height: 100%;
+    padding: 0% 5px;
+    text-decoration: none;
+    display: flex;
+    align-items:  center;
+    color: rgb(255, 255, 255);
+  
+    
+}
+nav ul li a:hover{
+    color: #f75757b4;
+}
+/* MY SIDEBAR */
+.sidebar{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 150vh;
+    width: 300px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.555);
+    backdrop-filter: blur(10px);
+    box-shadow: -1-px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 150%
+}
+
+
+
+
+
+.login {
+    width: 400px;
+    background-color: #5c5757;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.135);
+    margin: 100px auto;
+}
+
+.login h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #fafcff;
+    color: #ffffff;
+}
+
+.login form input[type="password"],
+.login form input[type="text"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #fafafa00;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover {
+    background-color: #fefeff;
+    transition: background-color 0.2s;
+} 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+}
+
+.form h2 { 
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+
+}
+@media (max-width: 800px) {
+    body .form {
+        width: 800px;
+        border-radius: 5px;
+        font-size: 15px;
+        align-items: center;
+        margin-right: 30%;
+        color: white;
+        backdrop-filter: blur(20px);
+        /* height:fit-content;  */
+        padding: 10px; /* Adjusted padding for better spacing */
+        text-align: center; /* Center the content inside the form */
+    }
+}
+.form {
+    width: 1000px;
+    border-radius: 5px;
+    font-size: 15px;
+    align-items: center;
+    margin-right: 30%;
+    color: white;
+    backdrop-filter: blur(20px);
+    /* height:fit-content;  */
+    padding: 10px; /* Adjusted padding for better spacing */
+    text-align: center; /* Center the content inside the form */
+}
+
+label {
+    display: block;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 15px; /* Adjusted margin for better spacing */
+}
+.register-btn{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.302);
+    width: 50%;
+    padding: 15px 8px;
+    color: rgb(0, 0, 0);
+    border-color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 15px 0px; /* Adjusted margin for better spacing */
+}
+
+p {
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#back { 
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5%;
+    margin-right: 5%;
+    width: 40%;
+    padding: 15px 8px;
+    color: rgb(255, 255, 255);
+    border-color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 15px 0px; /* Adjusted margin for better spacing */
+}
+#login { 
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5%;
+    margin-right: 5%;
+    width: 40%;
+    padding: 15px 8px;
+    color: rgb(255, 255, 255);
+    border-color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 15px 0px; /* Adjusted margin for better spacing */
+}
+
+
+
+/* THIS IS FOR THE HTML GAMEMODE */
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2))url('https://greekreporter.com/wp-content/uploads/2023/04/nba-ball-general-view-credit-nba.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-color: rgb(240, 234, 234);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav {
+    width: 100%;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size:3em;
+    letter-spacing: 2px;
+}
+.mode a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 20px;
+} 
+.mode a:hover{
+    border: 1px solid plum;
+    background: transparent;
+}
+ 
+.modeToHome a{
+    text-decoration: none;
+    color: rgb(255, 250, 250);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: plum;
+}
+
+.modeToHome a:hover{
+    border: 1px solid plum;
+    background: transparent;
+}
+.h-text{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(251, 248, 248);
+}
+.h-text span{
+    letter-spacing:5px;
+}
+.h-text h1{
+    font-size: 3.5em;
+}
+.h-text a{
+    text-decoration: none;
+    background: plum;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+.h-text a:hover{
+    border: 1px solid rgb(255, 253, 255);
+    background: transparent;
+}

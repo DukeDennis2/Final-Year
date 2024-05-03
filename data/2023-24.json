@@ -1,0 +1,4093 @@
+{
+    "NbaPlayers": [
+      {
+        "playerkey": "Jeff Dowtin Jr.",
+        "firstName": "Jeff",
+        "lastName": "Dowtin Jr.",
+        "position": "Point Guard",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 11
+      },
+      {
+        "playerkey": "Ricky Council IV",
+        "firstName": "Ricky",
+        "lastName": "Council IV",
+        "position": "Shooting Guard",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 16
+      },
+      {
+        "playerkey": "Robert Covington",
+        "firstName": "Robert",
+        "lastName": "Covington",
+        "position": "Small Forward",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 33
+      },
+      {
+        "playerkey": "Terquavion Smith",
+        "firstName": "Terquavion",
+        "lastName": "Smith",
+        "position": "Point Guard",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 23
+      },
+      {
+        "playerkey": "KJ Martin",
+        "firstName": "KJ",
+        "lastName": "Martin",
+        "position": "Small Forward",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 1
+      },
+      {
+        "playerkey": "De'Anthony Melton",
+        "firstName": "De'Anthony",
+        "lastName": "Melton",
+        "position": "Point Guard",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 8
+      },
+      {
+        "playerkey": "Tyrese Maxey",
+        "firstName": "Tyrese",
+        "lastName": "Maxey",
+        "position": "Point Guard",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 0
+      },
+      {
+        "playerkey": "Buddy Hield",
+        "firstName": "Buddy",
+        "lastName": "Hield",
+        "position": "Shooting Guard",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 17
+      },
+      {
+        "playerkey": "Kelly Oubre Jr.",
+        "firstName": "Kelly",
+        "lastName": "Oubre Jr.",
+        "position": "Small Forward",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 9
+      },
+      {
+        "playerkey": "Tobias Harris",
+        "firstName": "Tobias",
+        "lastName": "Harris",
+        "position": "Power Forward",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 12
+      },
+      {
+        "playerkey": "Kyle Lowry",
+        "firstName": "Kyle",
+        "lastName": "Lowry",
+        "position": "Point Guard",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 7
+      },
+      {
+        "playerkey": "D.J. Wilson",
+        "firstName": "D.J.",
+        "lastName": "Wilson",
+        "position": "Power Forward",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 20
+      },
+      {
+        "playerkey": "Mo Bamba",
+        "firstName": "Mo",
+        "lastName": "Bamba",
+        "position": "Center",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 5
+      },
+      {
+        "playerkey": "Nicolas Batum",
+        "firstName": "Nicolas",
+        "lastName": "Batum",
+        "position": "Small Forward",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 40
+      },
+      {
+        "playerkey": "Joel Embiid",
+        "firstName": "Joel",
+        "lastName": "Embiid",
+        "position": "Center",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 21
+      },
+      {
+        "playerkey": "Paul Reed",
+        "firstName": "Paul",
+        "lastName": "Reed",
+        "position": "Power Forward",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 44
+      },
+      {
+        "playerkey": "Cameron Payne",
+        "firstName": "Cameron",
+        "lastName": "Payne",
+        "position": "Point Guard",
+        "team": "Philadelphia 76ers",
+        "NbaNo": 22
+      },
+      
+          {
+            "playerkey": "PatConnaughton",
+            "firstName": "Pat",
+            "lastName": "Connaughton",
+            "position": "Shooting Guard",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 24
+          },
+          {
+            "playerkey": "TyTyWashingtonJr",
+            "firstName": "TyTy",
+            "lastName": "Washington Jr.",
+            "position": "Point Guard",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 23
+          },
+          {
+            "playerkey": "DaniloGallinari",
+            "firstName": "Danilo",
+            "lastName": "Gallinari",
+            "position": "Small Forward",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 12
+          },
+          {
+            "playerkey": "KhrisMiddleton",
+            "firstName": "Khris",
+            "lastName": "Middleton",
+            "position": "Small Forward",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 22
+          },
+          {
+            "playerkey": "DamianLillard",
+            "firstName": "Damian",
+            "lastName": "Lillard",
+            "position": "Point Guard",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 0
+          },
+          {
+            "playerkey": "AJGreen",
+            "firstName": "AJ",
+            "lastName": "Green",
+            "position": "Shooting Guard",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 20
+          },
+          {
+            "playerkey": "JaylinGalloway",
+            "firstName": "Jaylin",
+            "lastName": "Galloway",
+            "position": "Small Forward",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 0
+          },
+          {
+            "playerkey": "ThanasisAntetokounmpo",
+            "firstName": "Thanasis",
+            "lastName": "Antetokounmpo",
+            "position": "Small Forward",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 43
+          },
+          {
+            "playerkey": "BobbyPortis",
+            "firstName": "Bobby",
+            "lastName": "Portis",
+            "position": "Power Forward",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 9
+          },
+          {
+            "playerkey": "GiannisAntetokounmpo",
+            "firstName": "Giannis",
+            "lastName": "Antetokounmpo",
+            "position": "Power Forward",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 34
+          },
+          {
+            "playerkey": "AndreJacksonJr",
+            "firstName": "Andre",
+            "lastName": "Jackson Jr.",
+            "position": "Shooting Guard",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 44
+          },
+          {
+            "playerkey": "PatrickBeverley",
+            "firstName": "Patrick",
+            "lastName": "Beverley",
+            "position": "Point Guard",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 21
+          },
+          {
+            "playerkey": "BrookLopez",
+            "firstName": "Brook",
+            "lastName": "Lopez",
+            "position": "Center",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 11
+          },
+          {
+            "playerkey": "ChrisLivingston",
+            "firstName": "Chris",
+            "lastName": "Livingston",
+            "position": "Small Forward",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 7
+          },
+          {
+            "playerkey": "MalikBeasley",
+            "firstName": "Malik",
+            "lastName": "Beasley",
+            "position": "Shooting Guard",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 5
+          },
+          {
+            "playerkey": "JaeCrowder",
+            "firstName": "Jae",
+            "lastName": "Crowder",
+            "position": "Small Forward",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 99
+          },
+          {
+            "playerkey": "RyanRollins",
+            "firstName": "Ryan",
+            "lastName": "Rollins",
+            "position": "Point Guard",
+            "team": "Milwaukee Bucks",
+            "NbaNo": 55
+          },
+      
+              {
+                "playerkey": "LonzoBall",
+                "firstName": "Lonzo",
+                "lastName": "Ball",
+                "position": "PointGuard",
+                "team": "Chicago Bulls",
+                "NbaNo": 2
+              },
+              {
+                "playerkey": "HenriDrell",
+                "firstName": "Henri",
+                "lastName": "Drell",
+                "position": "SmallForward",
+                "team": "Chicago Bulls",
+                "NbaNo": 77
+              },
+              {
+                "playerkey": "AndrewFunk",
+                "firstName": "Andrew",
+                "lastName": "Funk",
+                "position": "ShootingGuard",
+                "team": "Chicago Bulls",
+                "NbaNo": 30
+              },
+              {
+                "playerkey": "JavonteGreen",
+                "firstName": "Javonte",
+                "lastName": "Green",
+                "position": "ShootingGuard",
+                "team": "Chicago Bulls",
+                "NbaNo": 24
+              },
+              {
+                "playerkey": "DalenTerry",
+                "firstName": "Dalen",
+                "lastName": "Terry",
+                "position": "ShootingGuard",
+                "team": "Chicago Bulls",
+                "NbaNo": 25
+              },
+              {
+                "playerkey": "AndreDrummond",
+                "firstName": "Andre",
+                "lastName": "Drummond",
+                "position": "Center",
+                "team": "Chicago Bulls",
+                "NbaNo": 3
+              },
+              {
+                "playerkey": "DeMarDeRozan",
+                "firstName": "DeMar",
+                "lastName": "DeRozan",
+                "position": "ShootingGuard",
+                "team": "Chicago Bulls",
+                "NbaNo": 11
+              },
+              {
+                "playerkey": "PatrickWilliams",
+                "firstName": "Patrick",
+                "lastName": "Williams",
+                "position": "PowerForward",
+                "team": "Chicago Bulls",
+                "NbaNo": 44
+              },
+              {
+                "playerkey": "NikolaVucevic",
+                "firstName": "Nikola",
+                "lastName": "Vucevic",
+                "position": "Center",
+                "team": "Chicago Bulls",
+                "NbaNo": 9
+              },
+              {
+                "playerkey": "AdamaSanogo",
+                "firstName": "Adama",
+                "lastName": "Sanogo",
+                "position": "Center",
+                "team": "Chicago Bulls",
+                "NbaNo": 21
+              },
+              {
+                "playerkey": "JevonCarter",
+                "firstName": "Jevon",
+                "lastName": "Carter",
+                "position": "PointGuard",
+                "team": "Chicago Bulls",
+                "NbaNo": 5
+              },
+              {
+                "playerkey": "TerryTaylor",
+                "firstName": "Terry",
+                "lastName": "Taylor",
+                "position": "PowerForward",
+                "team": "Chicago Bulls",
+                "NbaNo": 32
+              },
+              {
+                "playerkey": "AlexCaruso",
+                "firstName": "Alex",
+                "lastName": "Caruso",
+                "position": "PointGuard",
+                "team": "Chicago Bulls",
+                "NbaNo": 6
+              },
+              {
+                "playerkey": "JulianPhillips",
+                "firstName": "Julian",
+                "lastName": "Phillips",
+                "position": "SmallForward",
+                "team": "Chicago Bulls",
+                "NbaNo": 15
+              },
+              {
+                "playerkey": "CobyWhite",
+                "firstName": "Coby",
+                "lastName": "White",
+                "position": "PointGuard",
+                "team": "Chicago Bulls",
+                "NbaNo": 0
+              },
+              {
+                "playerkey": "OnuralpBitim",
+                "firstName": "Onuralp",
+                "lastName": "Bitim",
+                "position": "ShootingGuard",
+                "team": "Chicago Bulls",
+                "NbaNo": 17
+              },
+              {
+                "playerkey": "TorreyCraig",
+                "firstName": "Torrey",
+                "lastName": "Craig",
+                "position": "SmallForward",
+                "team": "Chicago Bulls",
+                "NbaNo": 13
+              },
+              {
+                "playerkey": "ZachLavine",
+                "firstName": "Zach",
+                "lastName": "Lavine",
+                "position": "ShootingGuard",
+                "team": "Chicago Bulls",
+                "NbaNo": 8
+              },
+
+
+
+
+
+                  {
+                    "playerkey": "TyJerome",
+                    "firstName": "Ty",
+                    "lastName": "Jerome",
+                    "position": "ShootingGuard",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 2
+                  },
+                  {
+                    "playerkey": "EmoniBates",
+                    "firstName": "Emoni",
+                    "lastName": "Bates",
+                    "position": "SmallForward",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 21
+                  },
+                  {
+                    "playerkey": "TristanThompson",
+                    "firstName": "Tristan",
+                    "lastName": "Thompson",
+                    "position": "PowerForward",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 13
+                  },
+                  {
+                    "playerkey": "DamianJones",
+                    "firstName": "Damian",
+                    "lastName": "Jones",
+                    "position": "Center",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 30
+                  },
+                  {
+                    "playerkey": "MarcusMorrisSr",
+                    "firstName": "Marcus",
+                    "lastName": "Morris Sr.",
+                    "position": "PowerForward",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 24
+                  },
+                  {
+                    "playerkey": "SamMerrill",
+                    "firstName": "Sam",
+                    "lastName": "Merrill",
+                    "position": "ShootingGuard",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 5
+                  },
+                  {
+                    "playerkey": "CraigPorterJr",
+                    "firstName": "Craig",
+                    "lastName": "Porter Jr.",
+                    "position": "PointGuard",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 9
+                  },
+                  {
+                    "playerkey": "PeteNance",
+                    "firstName": "Pete",
+                    "lastName": "Nance",
+                    "position": "PowerForward",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 8
+                  },
+                  {
+                    "playerkey": "JarrettAllen",
+                    "firstName": "Jarrett",
+                    "lastName": "Allen",
+                    "position": "Center",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 31
+                  },
+                  {
+                    "playerkey": "IsaiahMobley",
+                    "firstName": "Isaiah",
+                    "lastName": "Mobley",
+                    "position": "PowerForward",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 15
+                  },
+                  {
+                    "playerkey": "DonovanMitchell",
+                    "firstName": "Donovan",
+                    "lastName": "Mitchell",
+                    "position": "ShootingGuard",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 45
+                  },
+                  {
+                    "playerkey": "DariusGarland",
+                    "firstName": "Darius",
+                    "lastName": "Garland",
+                    "position": "PointGuard",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 10
+                  },
+                  {
+                    "playerkey": "DeanWade",
+                    "firstName": "Dean",
+                    "lastName": "Wade",
+                    "position": "PowerForward",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 32
+                  },
+                  {
+                    "playerkey": "CarisLeVert",
+                    "firstName": "Caris",
+                    "lastName": "LeVert",
+                    "position": "ShootingGuard",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 3
+                  },
+                  {
+                    "playerkey": "IsaacOkoro",
+                    "firstName": "Isaac",
+                    "lastName": "Okoro",
+                    "position": "ShootingGuard",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 35
+                  },
+                  {
+                    "playerkey": "EvanMobley",
+                    "firstName": "Evan",
+                    "lastName": "Mobley",
+                    "position": "Center",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 4
+                  },
+                  {
+                    "playerkey": "MaxStrus",
+                    "firstName": "Max",
+                    "lastName": "Strus",
+                    "position": "SmallForward",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 1
+                  },
+                  {
+                    "playerkey": "GeorgesNiang",
+                    "firstName": "Georges",
+                    "lastName": "Niang",
+                    "position": "PowerForward",
+                    "team": "Cleveland Cavaliers",
+                    "NbaNo": 20
+                  },
+                    {
+                        "playerkey": "paytonpritchard",
+                        "firstName": "Payton",
+                        "lastName": "Pritchard",
+                        "position": "Shooting Guard",
+                        "team": "Boston Celtics",
+                        "NbaNo": 11
+                    },
+                    {
+                        "playerkey": "oshaebrissett",
+                        "firstName": "Oshae",
+                        "lastName": "Brissett",
+                        "position": "Small Forward",
+                        "team": "Boston Celtics",
+                        "NbaNo": 12
+                    },
+                    {
+                        "playerkey": "kristapsporzingis",
+                        "firstName": "Kristaps",
+                        "lastName": "Porzingis",
+                        "position": "Power Forward",
+                        "team": "Boston Celtics",
+                        "NbaNo": 8
+                    },
+                    {
+                        "playerkey": "jordanwalsh",
+                        "firstName": "Jordan",
+                        "lastName": "Walsh",
+                        "position": "Small Forward",
+                        "team": "Boston Celtics",
+                        "NbaNo": 27
+                    },
+                    {
+                        "playerkey": "jrholiday",
+                        "firstName": "Jrue",
+                        "lastName": "Holiday",
+                        "position": "Point Guard",
+                        "team": "Boston Celtics",
+                        "NbaNo": 4
+                    },
+                    {
+                        "playerkey": "jddavison",
+                        "firstName": "JD",
+                        "lastName": "Davison",
+                        "position": "Point Guard",
+                        "team": "Boston Celtics",
+                        "NbaNo": 20
+                    },
+                    {
+                        "playerkey": "neemiasqueta",
+                        "firstName": "Neemias",
+                        "lastName": "Queta",
+                        "position": "Center",
+                        "team": "Boston Celtics",
+                        "NbaNo": 88
+                    },
+                    {
+                        "playerkey": "drewpeterson",
+                        "firstName": "Drew",
+                        "lastName": "Peterson",
+                        "position": "Power Forward",
+                        "team": "Boston Celtics",
+                        "NbaNo": 13
+                    },
+                    {
+                        "playerkey": "svimykhailiuk",
+                        "firstName": "Svi",
+                        "lastName": "Mykhailiuk",
+                        "position": "Small Forward",
+                        "team": "Boston Celtics",
+                        "NbaNo": 50
+                    },
+                    {
+                        "playerkey": "jaysontatum",
+                        "firstName": "Jayson",
+                        "lastName": "Tatum",
+                        "position": "Small Forward",
+                        "team": "Boston Celtics",
+                        "NbaNo": 0
+                    },
+                    {
+                        "playerkey": "derrickwhite",
+                        "firstName": "Derrick",
+                        "lastName": "White",
+                        "position": "Shooting Guard",
+                        "team": "Boston Celtics",
+                        "NbaNo": 9
+                    },
+                    {
+                        "playerkey": "jadenspringer",
+                        "firstName": "Jaden",
+                        "lastName": "Springer",
+                        "position": "Point Guard",
+                        "team": "Boston Celtics",
+                        "NbaNo": 44
+                    },
+                    {
+                        "playerkey": "alhorford",
+                        "firstName": "Al",
+                        "lastName": "Horford",
+                        "position": "Center",
+                        "team": "Boston Celtics",
+                        "NbaNo": 42
+                    },
+                    {
+                        "playerkey": "samhauser",
+                        "firstName": "Sam",
+                        "lastName": "Hauser",
+                        "position": "Power Forward",
+                        "team": "Boston Celtics",
+                        "NbaNo": 30
+                    },
+                    {
+                        "playerkey": "xaviertillmansr",
+                        "firstName": "Xavier",
+                        "lastName": "Tillman Sr.",
+                        "position": "Power Forward",
+                        "team": "Boston Celtics",
+                        "NbaNo": 26
+                    },
+                    {
+                        "playerkey": "lukekornet",
+                        "firstName": "Luke",
+                        "lastName": "Kornet",
+                        "position": "Center",
+                        "team": "Boston Celtics",
+                        "NbaNo": 40
+                    },
+                    {
+                        "playerkey": "jaylenbrown",
+                        "firstName": "Jaylen",
+                        "lastName": "Brown",
+                        "position": "Small Forward",
+                        "team": "Boston Celtics",
+                        "NbaNo": 7
+                    },
+
+
+
+
+
+                    {
+                        "playerkey": "RussellWestbrook",
+                        "firstName": "Russell",
+                        "lastName": "Westbrook",
+                        "position": "Guard",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 0
+                      },
+                      {
+                        "playerkey": "JamesHarden",
+                        "firstName": "James",
+                        "lastName": "Harden",
+                        "position": "Guard",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 13
+                      },
+                      {
+                        "playerkey": "KawhiLeonard",
+                        "firstName": "Kawhi",
+                        "lastName": "Leonard",
+                        "position": "Forward",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 2
+                      },
+                      {
+                        "playerkey": "BrandonBostonJr",
+                        "firstName": "Brandon",
+                        "lastName": "Boston Jr.",
+                        "position": "Guard",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 5
+                      },
+                      {
+                        "playerkey": "BonesHyland",
+                        "firstName": "Bones",
+                        "lastName": "Hyland",
+                        "position": "Guard",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 1
+                      },
+                      {
+                        "playerkey": "AmirCoffey",
+                        "firstName": "Amir",
+                        "lastName": "Coffey",
+                        "position": "Guard-Forward",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 7
+                      },
+                      {
+                        "playerkey": "DanielTheis",
+                        "firstName": "Daniel",
+                        "lastName": "Theis",
+                        "position": "Forward-Center",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 27
+                      },
+                      {
+                        "playerkey": "JordanMiller",
+                        "firstName": "Jordan",
+                        "lastName": "Miller",
+                        "position": "Guard",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 8
+                      },
+                      {
+                        "playerkey": "PaulGeorge",
+                        "firstName": "Paul",
+                        "lastName": "George",
+                        "position": "Forward",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 13
+                      },
+                      {
+                        "playerkey": "TeranceMann",
+                        "firstName": "Terance",
+                        "lastName": "Mann",
+                        "position": "Guard-Forward",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 14
+                      },
+                      {
+                        "playerkey": "PJTucker",
+                        "firstName": "P.J.",
+                        "lastName": "Tucker",
+                        "position": "Forward",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 17
+                      },
+                      {
+                        "playerkey": "KobeBrown",
+                        "firstName": "Kobe",
+                        "lastName": "Brown",
+                        "position": "Forward",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 21
+                      },
+                      {
+                        "playerkey": "XavierMoon",
+                        "firstName": "Xavier",
+                        "lastName": "Moon",
+                        "position": "Guard",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 23
+                      },
+                      {
+                        "playerkey": "KaiJones",
+                        "firstName": "Kai",
+                        "lastName": "Jones",
+                        "position": "Center-Forward",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 25
+                      },
+                      {
+                        "playerkey": "NormanPowell",
+                        "firstName": "Norman",
+                        "lastName": "Powell",
+                        "position": "Guard",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 4
+                      },
+                      {
+                        "playerkey": "MoussaDiabate",
+                        "firstName": "Moussa",
+                        "lastName": "Diabate",
+                        "position": "Forward",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 30
+                      },
+                      {
+                        "playerkey": "IvicaZubac",
+                        "firstName": "Ivica",
+                        "lastName": "Zubac",
+                        "position": "Center",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 40
+                      },
+                      {
+                        "playerkey": "MasonPlumlee",
+                        "firstName": "Mason",
+                        "lastName": "Plumlee",
+                        "position": "Center",
+                        "team": "Los Angeles Clippers",
+                        "NbaNo": 40
+                      },
+
+
+
+
+
+
+                      {
+                        "playerkey": "SaddiqBey",
+                        "firstName": "Saddiq",
+                        "lastName": "Bey",
+                        "position": "small forward",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 41
+                      },
+                      {
+                        "playerkey": "BogdanBogdanovic",
+                        "firstName": "Bogdan",
+                        "lastName": "Bogdanovic",
+                        "position": "shooting guard",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 13
+                      },
+                      {
+                        "playerkey": "KobeBufkin",
+                        "firstName": "Kobe",
+                        "lastName": "Bufkin",
+                        "position": "shooting guard",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 4
+                      },
+                      {
+                        "playerkey": "ClintCapela",
+                        "firstName": "Clint",
+                        "lastName": "Capela",
+                        "position": "center",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 15
+                      },
+                      {
+                        "playerkey": "BrunoFernando",
+                        "firstName": "Bruno",
+                        "lastName": "Fernando",
+                        "position": "power forward",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 24
+                      },
+                      {
+                        "playerkey": "TrentForrest",
+                        "firstName": "Trent",
+                        "lastName": "Forrest",
+                        "position": "point guard",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 2
+                      },
+                      {
+                        "playerkey": "AJGriffin",
+                        "firstName": "AJ",
+                        "lastName": "Griffin",
+                        "position": "small forward",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 14
+                      },
+                      {
+                        "playerkey": "MouhamedGueye",
+                        "firstName": "Mouhamed",
+                        "lastName": "Gueye",
+                        "position": "power forward",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 18
+                      },
+                      {
+                        "playerkey": "DeAndreHunter",
+                        "firstName": "De'Andre",
+                        "lastName": "Hunter",
+                        "position": "small forward",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 12
+                      },
+                      {
+                        "playerkey": "JalenJohnson",
+                        "firstName": "Jalen",
+                        "lastName": "Johnson",
+                        "position": "power forward",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 1
+                      },
+                      {
+                        "playerkey": "VitKrejci",
+                        "firstName": "Vit",
+                        "lastName": "Krejci",
+                        "position": "point guard",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 27
+                      },
+                      {
+                        "playerkey": "SethLundy",
+                        "firstName": "Seth",
+                        "lastName": "Lundy",
+                        "position": "shooting guard",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 3
+                      },
+                      {
+                        "playerkey": "GarrisonMathews",
+                        "firstName": "Garrison",
+                        "lastName": "Mathews",
+                        "position": "shooting guard",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 25
+                      },
+                      {
+                        "playerkey": "WesleyMatthews",
+                        "firstName": "Wesley",
+                        "lastName": "Matthews",
+                        "position": "shooting guard",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 32
+                      },
+                      {
+                        "playerkey": "DejounteMurray",
+                        "firstName": "Dejounte",
+                        "lastName": "Murray",
+                        "position": "point guard",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 5
+                      },
+                      {
+                        "playerkey": "OnyekaOkongwu",
+                        "firstName": "Onyeka",
+                        "lastName": "Okongwu",
+                        "position": "center",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 17
+                      },
+                      {
+                        "playerkey": "DylanWindler",
+                        "firstName": "Dylan",
+                        "lastName": "Windler",
+                        "position": "small forward",
+                        "team": "Atlanta Hawksanta Hawks",
+                        "NbaNo": 20
+                      },
+                      {
+                        "playerkey": "TraeYoung",
+                        "firstName": "Trae",
+                        "lastName": "Young",
+                        "position": "point guard",
+                        "team": "Atlanta Hawks",
+                        "NbaNo": 11
+                      },
+                    
+
+
+
+
+
+                      {
+                        "playerkey": "BamAdebayo",
+                        "firstName": "Bam",
+                        "lastName": "Adebayo",
+                        "position": "center",
+                        "team": "Miami Heat",
+                        "NbaNo": 13
+                      },
+                      {
+                        "playerkey": "ThomasBryant",
+                        "firstName": "Thomas",
+                        "lastName": "Bryant",
+                        "position": "center",
+                        "team": "Miami Heat",
+                        "NbaNo": 31
+                      },
+                      {
+                        "playerkey": "JimmyButler",
+                        "firstName": "Jimmy",
+                        "lastName": "Butler",
+                        "position": "small forward",
+                        "team": "Miami Heat",
+                        "NbaNo": 22
+                      },
+                      {
+                        "playerkey": "JamalCain",
+                        "firstName": "Jamal",
+                        "lastName": "Cain",
+                        "position": "forward",
+                        "team": "Miami Heat",
+                        "NbaNo": 8
+                      },
+                      {
+                        "playerkey": "TylerHerro",
+                        "firstName": "Tyler",
+                        "lastName": "Herro",
+                        "position": "shooting guard",
+                        "team": "Miami Heat",
+                        "NbaNo": 14
+                      },
+                      {
+                        "playerkey": "HaywoodHighsmith",
+                        "firstName": "Haywood",
+                        "lastName": "Highsmith",
+                        "position": "forward",
+                        "team": "Miami Heat",
+                        "NbaNo": 24
+                      },
+                      {
+                        "playerkey": "JaimeJaquezJr",
+                        "firstName": "Jaime",
+                        "lastName": "Jaquez Jr.",
+                        "position": "guard",
+                        "team": "Miami Heat",
+                        "NbaNo": 11
+                      },
+                      {
+                        "playerkey": "NikolaJovic",
+                        "firstName": "Nikola",
+                        "lastName": "Jovic",
+                        "position": "forward",
+                        "team": "Miami Heat",
+                        "NbaNo": 5
+                      },
+                      {
+                        "playerkey": "KevinLove",
+                        "firstName": "Kevin",
+                        "lastName": "Love",
+                        "position": "forward-center",
+                        "team": "Miami Heat",
+                        "NbaNo": 42
+                      },
+                      {
+                        "playerkey": "CalebMartin",
+                        "firstName": "Caleb",
+                        "lastName": "Martin",
+                        "position": "forward",
+                        "team": "Miami Heat",
+                        "NbaNo": 16
+                      },
+                      {
+                        "playerkey": "PattyMills",
+                        "firstName": "Patty",
+                        "lastName": "Mills",
+                        "position": "guard",
+                        "team": "Miami Heat",
+                        "NbaNo": 8
+                      },
+                      {
+                        "playerkey": "JoshRichardson",
+                        "firstName": "Josh",
+                        "lastName": "Richardson",
+                        "position": "guard",
+                        "team": "Miami Heat",
+                        "NbaNo": 0
+                      },
+                      {
+                        "playerkey": "DuncanRobinson",
+                        "firstName": "Duncan",
+                        "lastName": "Robinson",
+                        "position": "forward",
+                        "team": "Miami Heat",
+                        "NbaNo": 55
+                      },
+                      {
+                        "playerkey": "OrlandoRobinson",
+                        "firstName": "Orlando",
+                        "lastName": "Robinson",
+                        "position": "center",
+                        "team": "Miami Heat",
+                        "NbaNo": 25
+                      },
+                      {
+                        "playerkey": "TerryRozier",
+                        "firstName": "Terry",
+                        "lastName": "Rozier",
+                        "position": "guard",
+                        "team": "Miami Heat",
+                        "NbaNo": 2
+                      },
+                      {
+                        "playerkey": "ColeSwider",
+                        "firstName": "Cole",
+                        "lastName": "Swider",
+                        "position": "forward",
+                        "team": "Miami Heat",
+                        "NbaNo": 21
+                      },
+                      {
+                        "playerkey": "AlondesWilliams",
+                        "firstName": "Alondes",
+                        "lastName": "Williams",
+                        "position": "guard",
+                        "team": "Miami Heat",
+                        "NbaNo": 15
+                      },
+                      {
+                        "playerkey": "DelonWright",
+                        "firstName": "Delon",
+                        "lastName": "Wright",
+                        "position": "guard",
+                        "team": "Miami Heat",
+                        "NbaNo" : 4
+                      },
+
+
+
+
+
+
+                      {
+                            "playerkey": "AmariBailey",
+                            "firstName": "Amari",
+                            "lastName": "Bailey",
+                            "position": "point guard",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 10
+                        },
+                        {
+                            "playerkey": "LaMeloBall",
+                            "firstName": "LaMelo",
+                            "lastName": "Ball",
+                            "position": "point guard",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 1
+                        },
+                        {
+                            "playerkey": "DavisBertans",
+                            "firstName": "Davis",
+                            "lastName": "Bertans",
+                            "position": "power forward",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 9
+                        },
+                        {
+                            "playerkey": "LeakyBlack",
+                            "firstName": "Leaky",
+                            "lastName": "Black",
+                            "position": "small forward",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 12
+                        },
+                        {
+                            "playerkey": "MarquesBolden",
+                            "firstName": "Marques",
+                            "lastName": "Bolden",
+                            "position": "center",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 12
+                        },
+                        {
+                            "playerkey": "MilesBridges",
+                            "firstName": "Miles",
+                            "lastName": "Bridges",
+                            "position": "small forward",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 0
+                        },
+                        {
+                            "playerkey": "SethCurry",
+                            "firstName": "Seth",
+                            "lastName": "Curry",
+                            "position": "shooting guard",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 30
+                        },
+                        {
+                            "playerkey": "TreMann",
+                            "firstName": "Tre",
+                            "lastName": "Mann",
+                            "position": "point guard",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 23
+                        },
+                        {
+                            "playerkey": "CodyMartin",
+                            "firstName": "Cody",
+                            "lastName": "Martin",
+                            "position": "small forward",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 11
+                        },
+                        {
+                            "playerkey": "BryceMcGowens",
+                            "firstName": "Bryce",
+                            "lastName": "McGowens",
+                            "position": "shooting guard",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 7
+                        },
+                        {
+                            "playerkey": "VasilijeMicic",
+                            "firstName": "Vasilije",
+                            "lastName": "Micic",
+                            "position": "point guard",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 22
+                        },
+                        {
+                            "playerkey": "BrandonMiller",
+                            "firstName": "Brandon",
+                            "lastName": "Miller",
+                            "position": "small forward",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 24
+                        },
+                        {
+                            "playerkey": "AleksejPokusevski",
+                            "firstName": "Aleksej",
+                            "lastName": "Pokusevski",
+                            "position": "power forward",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 17
+                        },
+                        {
+                            "playerkey": "NickRiCharlotte Hornetsrds",
+                            "firstName": "Nick",
+                            "lastName": "RiCharlotte Hornetsrds",
+                            "position": "center",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 4
+                        },
+                        {
+                            "playerkey": "NickSmithJr",
+                            "firstName": "Nick",
+                            "lastName": "Smith Jr.",
+                            "position": "point guard",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 8
+                        },
+                        {
+                            "playerkey": "JTThor",
+                            "firstName": "JT",
+                            "lastName": "Thor",
+                            "position": "power forward",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 21
+                        },
+                        {
+                            "playerkey": "GrantWilliams",
+                            "firstName": "Grant",
+                            "lastName": "Williams",
+                            "position": "power forward",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 2
+                        },
+                        {
+                            "playerkey": "MarkWilliams",
+                            "firstName": "Mark",
+                            "lastName": "Williams",
+                            "position": "center",
+                            "team": "Charlotte Hornets",
+                            "NbaNo": 5
+                        },
+
+
+
+
+                        {
+                            "playerkey": "DariusBazley",
+                            "firstName": "Darius",
+                            "lastName": "Bazley",
+                            "position": "small forward",
+                            "team": "Utah Jazz",
+                            "NbaNo": 26
+                          },
+                          {
+                            "playerkey": "JordanClarkson",
+                            "firstName": "Jordan",
+                            "lastName": "Clarkson",
+                            "position": "point guard",
+                            "team": "Utah Jazz",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "JohnCollins",
+                            "firstName": "John",
+                            "lastName": "Collins",
+                            "position": "power forward",
+                            "team": "Utah Jazz",
+                            "NbaNo": 20
+                          },
+                          {
+                            "playerkey": "KrisDunn",
+                            "firstName": "Kris",
+                            "lastName": "Dunn",
+                            "position": "point guard",
+                            "team": "Utah Jazz",
+                            "NbaNo": 11
+                          },
+                          {
+                            "playerkey": "KeyonteGeorge",
+                            "firstName": "Keyonte",
+                            "lastName": "George",
+                            "position": "point guard",
+                            "team": "Utah Jazz",
+                            "NbaNo": 3
+                          },
+                          {
+                            "playerkey": "TaylorHendricks",
+                            "firstName": "Taylor",
+                            "lastName": "Hendricks",
+                            "position": "small forward",
+                            "team": "Utah Jazz",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "TalenHorton-Tucker",
+                            "firstName": "Talen",
+                            "lastName": "Horton-Tucker",
+                            "position": "shooting guard",
+                            "team": "Utah Jazz",
+                            "NbaNo": 5
+                          },
+                          {
+                            "playerkey": "JohnnyJuzang",
+                            "firstName": "Johnny",
+                            "lastName": "Juzang",
+                            "position": "shooting guard",
+                            "team": "Utah Jazz",
+                            "NbaNo": 33
+                          },
+                          {
+                            "playerkey": "WalkerKessler",
+                            "firstName": "Walker",
+                            "lastName": "Kessler",
+                            "position": "center",
+                            "team": "Utah Jazz",
+                            "NbaNo": 24
+                          },
+                          {
+                            "playerkey": "KiraLewisJr",
+                            "firstName": "Kira",
+                            "lastName": "Lewis Jr.",
+                            "position": "point guard",
+                            "team": "Utah Jazz",
+                            "NbaNo": 13
+                          },
+                          {
+                            "playerkey": "KennethLoftonJr",
+                            "firstName": "Kenneth",
+                            "lastName": "Lofton Jr.",
+                            "position": "power forward",
+                            "team": "Utah Jazz",
+                            "NbaNo": 35
+                          },
+                          {
+                            "playerkey": "LauriMarkkanen",
+                            "firstName": "Lauri",
+                            "lastName": "Markkanen",
+                            "position": "power forward",
+                            "team": "Utah Jazz",
+                            "NbaNo": 23
+                          },
+                          {
+                            "playerkey": "MicahPotter",
+                            "firstName": "Micah",
+                            "lastName": "Potter",
+                            "position": "center",
+                            "team": "Utah Jazz",
+                            "NbaNo": 25
+                          },
+                          {
+                            "playerkey": "JasonPreston",
+                            "firstName": "Jason",
+                            "lastName": "Preston",
+                            "position": "point guard",
+                            "team": "Utah Jazz",
+                            "NbaNo": 10
+                          },
+                          {
+                            "playerkey": "LukaSamanic",
+                            "firstName": "Luka",
+                            "lastName": "Samanic",
+                            "position": "small forward",
+                            "team": "Utah Jazz",
+                            "NbaNo": 19
+                          },
+                          {
+                            "playerkey": "BriceSensabaugh",
+                            "firstName": "Brice",
+                            "lastName": "Sensabaugh",
+                            "position": "small forward",
+                            "team": "Utah Jazz",
+                            "NbaNo": 8
+                          },
+                          {
+                            "playerkey": "CollinSexton",
+                            "firstName": "Collin",
+                            "lastName": "Sexton",
+                            "position": "point guard",
+                            "team": "Utah Jazz",
+                            "NbaNo": 2
+                          },
+                          {
+                            "playerkey": "OmerYurtseven",
+                            "firstName": "Omer",
+                            "lastName": "Yurtseven",
+                            "position": "center",
+                            "team": "Utah Jazz",
+                            "NbaNo": 77
+                          },
+
+
+
+
+
+                          {
+                            "playerkey": "HarrisonBarnes",
+                            "firstName": "Harrison",
+                            "lastName": "Barnes",
+                            "position": "small forward",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 40
+                          },
+                          {
+                            "playerkey": "ChrisDuarte",
+                            "firstName": "Chris",
+                            "lastName": "Duarte",
+                            "position": "shooting guard",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 3
+                          },
+                          {
+                            "playerkey": "KesslerEdwards",
+                            "firstName": "Kessler",
+                            "lastName": "Edwards",
+                            "position": "small forward",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 17
+                          },
+                          {
+                            "playerkey": "KeonEllis",
+                            "firstName": "Keon",
+                            "lastName": "Ellis",
+                            "position": "shooting guard",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 23
+                          },
+                          {
+                            "playerkey": "JordanFord",
+                            "firstName": "Jordan",
+                            "lastName": "Ford",
+                            "position": "point guard",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 31
+                          },
+                          {
+                            "playerkey": "DeAaronFox",
+                            "firstName": "De'Aaron",
+                            "lastName": "Fox",
+                            "position": "point guard",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 5
+                          },
+                          {
+                            "playerkey": "KevinHuerter",
+                            "firstName": "Kevin",
+                            "lastName": "Huerter",
+                            "position": "shooting guard",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 9
+                          },
+                          {
+                            "playerkey": "ColbyJones",
+                            "firstName": "Colby",
+                            "lastName": "Jones",
+                            "position": "point guard",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 20
+                          },
+                          {
+                            "playerkey": "MasonJones",
+                            "firstName": "Mason",
+                            "lastName": "Jones",
+                            "position": "shooting guard",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 8
+                          },
+                          {
+                            "playerkey": "AlexLen",
+                            "firstName": "Alex",
+                            "lastName": "Len",
+                            "position": "center",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 25
+                          },
+                          {
+                            "playerkey": "TreyLyles",
+                            "firstName": "Trey",
+                            "lastName": "Lyles",
+                            "position": "power forward",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 41
+                          },
+                          {
+                            "playerkey": "JaValeMcGee",
+                            "firstName": "JaVale",
+                            "lastName": "McGee",
+                            "position": "center",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "DavionMitchell",
+                            "firstName": "Davion",
+                            "lastName": "Mitchell",
+                            "position": "point guard",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 15
+                          },
+                          {
+                            "playerkey": "MalikMonk",
+                            "firstName": "Malik",
+                            "lastName": "Monk",
+                            "position": "shooting guard",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "KeeganMurray",
+                            "firstName": "Keegan",
+                            "lastName": "Murray",
+                            "position": "small forward",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 13
+                          },
+                          {
+                            "playerkey": "DomantasSabonis",
+                            "firstName": "Domantas",
+                            "lastName": "Sabonis",
+                            "position": "power forward",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 10
+                          },
+                          {
+                            "playerkey": "JalenSlawson",
+                            "firstName": "Jalen",
+                            "lastName": "Slawson",
+                            "position": "small forward",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 18
+                          },
+                          {
+                            "playerkey": "San Antonio SpurshaVezenkov",
+                            "firstName": "San Antonio Spursha",
+                            "lastName": "Vezenkov",
+                            "position": "small forward",
+                            "team": "Sacramento Kings",
+                            "NbaNo": 7
+                          },
+                        
+
+
+
+
+
+                          {
+                            "playerkey": "PreciousAchiuwa",
+                            "firstName": "Precious",
+                            "lastName": "Achiuwa",
+                            "position": "power forward",
+                            "team": "New York Knicks",
+                            "NbaNo": 5
+                          },
+                          {
+                            "playerkey": "OGAnunoby",
+                            "firstName": "OG",
+                            "lastName": "Anunoby",
+                            "position": "small forward",
+                            "team": "New York Knicks",
+                            "NbaNo": 8
+                          },
+                          {
+                            "playerkey": "BojanBogdanovic",
+                            "firstName": "Bojan",
+                            "lastName": "Bogdanovic",
+                            "position": "small forward",
+                            "team": "New York Knicks",
+                            "NbaNo": 44
+                          },
+                          {
+                            "playerkey": "CharlieBrownJr",
+                            "firstName": "Charlie",
+                            "lastName": "Brown Jr.",
+                            "position": "shooting guard",
+                            "team": "New York Knicks",
+                            "NbaNo": 4
+                          },
+                          {
+                            "playerkey": "JalenBrunson",
+                            "firstName": "Jalen",
+                            "lastName": "Brunson",
+                            "position": "point guard",
+                            "team": "New York Knicks",
+                            "NbaNo": 11
+                          },
+                          {
+                            "playerkey": "AlecBurks",
+                            "firstName": "Alec",
+                            "lastName": "Burks",
+                            "position": "shooting guard",
+                            "team": "New York Knicks",
+                            "NbaNo": 18
+                          },
+                          {
+                            "playerkey": "DonteDiVincenzo",
+                            "firstName": "Donte",
+                            "lastName": "DiVincenzo",
+                            "position": "shooting guard",
+                            "team": "New York Knicks",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "MamadiDiakite",
+                            "firstName": "Mamadi",
+                            "lastName": "Diakite",
+                            "position": "power forward",
+                            "team": "New York Knicks",
+                            "NbaNo": 21
+                          },
+                          {
+                            "playerkey": "JoshHart",
+                            "firstName": "Josh",
+                            "lastName": "Hart",
+                            "position": "shooting guard",
+                            "team": "New York Knicks",
+                            "NbaNo": 3
+                          },
+                          {
+                            "playerkey": "IsaiahHartenstein",
+                            "firstName": "Isaiah",
+                            "lastName": "Hartenstein",
+                            "position": "center",
+                            "team": "New York Knicks",
+                            "NbaNo": 55
+                          },
+                          {
+                            "playerkey": "DaQuanJeffries",
+                            "firstName": "DaQuan",
+                            "lastName": "Jeffries",
+                            "position": "small forward",
+                            "team": "New York Knicks",
+                            "NbaNo": 8
+                          },
+                          {
+                            "playerkey": "MilesMcBride",
+                            "firstName": "Miles",
+                            "lastName": "McBride",
+                            "position": "point guard",
+                            "team": "New York Knicks",
+                            "NbaNo": 2
+                          },
+                          {
+                            "playerkey": "ShakeMilton",
+                            "firstName": "Shake",
+                            "lastName": "Milton",
+                            "position": "shooting guard",
+                            "team": "New York Knicks",
+                            "NbaNo": 13
+                          },
+                          {
+                            "playerkey": "JuliusRandle",
+                            "firstName": "Julius",
+                            "lastName": "Randle",
+                            "position": "power forward",
+                            "team": "New York Knicks",
+                            "NbaNo": 30
+                          },
+                          {
+                            "playerkey": "MitchellRobinson",
+                            "firstName": "Mitchell",
+                            "lastName": "Robinson",
+                            "position": "center",
+                            "team": "New York Knicks",
+                            "NbaNo": 23
+                          },
+                          {
+                            "playerkey": "JerichoSims",
+                            "firstName": "Jericho",
+                            "lastName": "Sims",
+                            "position": "center",
+                            "team": "New York Knicks",
+                            "NbaNo": 45
+                          },
+                          {
+                            "playerkey": "JacobToppin",
+                            "firstName": "Jacob",
+                            "lastName": "Toppin",
+                            "position": "power forward",
+                            "team": "New York Knicks",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "DuaneWashingtonJr",
+                            "firstName": "Duane",
+                            "lastName": "Washington Jr.",
+                            "position": "point guard",
+                            "team": "New York Knicks",
+                            "NbaNo": 1
+                          },
+                          {
+                            "playerkey": "DuaneWashingtonJr",
+                            "firstName": "Duane",
+                            "lastName": "Washington Jr.",
+                            "position": "point guard",
+                            "team": "New York Knicks",
+                            "NbaNo": 1
+                          },
+
+
+
+
+
+
+                          {
+                            "playerkey": "ColinCastleton",
+                            "firstName": "Colin",
+                            "lastName": "Castleton",
+                            "position": "center",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 14
+                          },
+                          {
+                            "playerkey": "MaxChristie",
+                            "firstName": "Max",
+                            "lastName": "Christie",
+                            "position": "shooting guard",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 10
+                          },
+                          {
+                            "playerkey": "AnthonyDavis",
+                            "firstName": "Anthony",
+                            "lastName": "Davis",
+                            "position": "power forward",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 3
+                          },
+                          {
+                            "playerkey": "SpencerDinwiddie",
+                            "firstName": "Spencer",
+                            "lastName": "Dinwiddie",
+                            "position": "point guard",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 26
+                          },
+                          {
+                            "playerkey": "HarryGilesIII",
+                            "firstName": "Harry",
+                            "lastName": "Giles III",
+                            "position": "power forward",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 20
+                          },
+                          {
+                            "playerkey": "RuiHachimura",
+                            "firstName": "Rui",
+                            "lastName": "Hachimura",
+                            "position": "small forward",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 28
+                          },
+                          {
+                            "playerkey": "JaxsonHayes",
+                            "firstName": "Jaxson",
+                            "lastName": "Hayes",
+                            "position": "center",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 11
+                          },
+                          {
+                            "playerkey": "JalenHood-Schifino",
+                            "firstName": "Jalen",
+                            "lastName": "Hood-Schifino",
+                            "position": "point guard",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "LeBronJames",
+                            "firstName": "LeBron",
+                            "lastName": "James",
+                            "position": "small forward",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 23
+                          },
+                          {
+                            "playerkey": "MaxwellLewis",
+                            "firstName": "Maxwell",
+                            "lastName": "Lewis",
+                            "position": "small forward",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 21
+                          },
+                          {
+                            "playerkey": "SkylarMays",
+                            "firstName": "Skylar",
+                            "lastName": "Mays",
+                            "position": "point guard",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 4
+                          },
+                          {
+                            "playerkey": "TaureanPrince",
+                            "firstName": "Taurean",
+                            "lastName": "Prince",
+                            "position": "small forward",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 12
+                          },
+                          {
+                            "playerkey": "AustinReaves",
+                            "firstName": "Austin",
+                            "lastName": "Reaves",
+                            "position": "shooting guard",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 15
+                          },
+                          {
+                            "playerkey": "CamReddish",
+                            "firstName": "Cam",
+                            "lastName": "Reddish",
+                            "position": "small forward",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 5
+                          },
+                          {
+                            "playerkey": "D'AngeloRussell",
+                            "firstName": "D'Angelo",
+                            "lastName": "Russell",
+                            "position": "point guard",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 1
+                          },
+                          {
+                            "playerkey": "JarredVanderbilt",
+                            "firstName": "Jarred",
+                            "lastName": "Vanderbilt",
+                            "position": "power forward",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 2
+                          },
+                          {
+                            "playerkey": "GabeVincent",
+                            "firstName": "Gabe",
+                            "lastName": "Vincent",
+                            "position": "point guard",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 7
+                          },
+                          {
+                            "playerkey": "ChristianWood",
+                            "firstName": "Christian",
+                            "lastName": "Wood",
+                            "position": "power forward",
+                            "team": "Los Angeles Lakers",
+                            "NbaNo": 35
+                          },
+
+
+
+
+
+
+
+                          {
+                            "playerkey": "ColeAnthony",
+                            "firstName": "Cole",
+                            "lastName": "Anthony",
+                            "position": "point guard",
+                            "team": "Orlando Magics",
+                            "NbaNo": 50
+                          },
+                          {
+                            "playerkey": "PaoloBanchero",
+                            "firstName": "Paolo",
+                            "lastName": "Banchero",
+                            "position": "power forward",
+                            "team": "Orlando Magics",
+                            "NbaNo": 5
+                          },
+                          {
+                            "playerkey": "GogaBitadze",
+                            "firstName": "Goga",
+                            "lastName": "Bitadze",
+                            "position": "center",
+                            "team": "Orlando Magics",
+                            "NbaNo": 35
+                          },
+                          {
+                            "playerkey": "AnthonyBlack",
+                            "firstName": "Anthony",
+                            "lastName": "Black",
+                            "position": "point guard",
+                            "team": "Orlando Magics",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "WendellCarterJr",
+                            "firstName": "Wendell",
+                            "lastName": "Carter Jr.",
+                            "position": "center",
+                            "team": "Orlando Magics",
+                            "NbaNo": 34
+                          },
+                          {
+                            "playerkey": "MarkelleFultz",
+                            "firstName": "Markelle",
+                            "lastName": "Fultz",
+                            "position": "point guard",
+                            "team": "Orlando Magics",
+                            "NbaNo": 20
+                          },
+                          {
+                            "playerkey": "GaryHarris",
+                            "firstName": "Gary",
+                            "lastName": "Harris",
+                            "position": "shooting guard",
+                            "team": "Orlando Magics",
+                            "NbaNo": 14
+                          },
+                          {
+                            "playerkey": "KevonHarris",
+                            "firstName": "Kevon",
+                            "lastName": "Harris",
+                            "position": "shooting guard",
+                            "team": "Orlando Magics",
+                            "NbaNo": 8
+                          },
+                          {
+                            "playerkey": "CalebHoustan",
+                            "firstName": "Caleb",
+                            "lastName": "Houstan",
+                            "position": "small forward",
+                            "team": "Orlando Magics",
+                            "NbaNo": 2
+                          },
+                          {
+                            "playerkey": "JettHoward",
+                            "firstName": "Jett",
+                            "lastName": "Howard",
+                            "position": "shooting guard",
+                            "team": "Orlando Magics",
+                            "NbaNo": 13
+                          },
+                          {
+                            "playerkey": "JoeIngles",
+                            "firstName": "Joe",
+                            "lastName": "Ingles",
+                            "position": "small forward",
+                            "team": "Orlando Magics",
+                            "NbaNo": 7
+                          },
+                          {
+                            "playerkey": "JonathanIsaac",
+                            "firstName": "Jonathan",
+                            "lastName": "Isaac",
+                            "position": "small forward",
+                            "team": "Orlando Magics",
+                            "NbaNo": 1
+                          },
+                          {
+                            "playerkey": "ChumaOkeke",
+                            "firstName": "Chuma",
+                            "lastName": "Okeke",
+                            "position": "small forward",
+                            "team": "Orlando Magics",
+                            "NbaNo": 3
+                          },
+                          {
+                            "playerkey": "TrevelinQueen",
+                            "firstName": "Trevelin",
+                            "lastName": "Queen",
+                            "position": "shooting guard",
+                            "team": "Orlando Magics",
+                            "NbaNo": 12
+                          },
+                          {
+                            "playerkey": "AdmiralSchofield",
+                            "firstName": "Admiral",
+                            "lastName": "Schofield",
+                            "position": "small forward",
+                            "team": "Orlando Magics",
+                            "NbaNo": 25
+                          },
+                          {
+                            "playerkey": "JalenSuggs",
+                            "firstName": "Jalen",
+                            "lastName": "Suggs",
+                            "position": "point guard",
+                            "team": "Orlando Magics",
+                            "NbaNo": 4
+                          },
+                          {
+                            "playerkey": "FranzWagner",
+                            "firstName": "Franz",
+                            "lastName": "Wagner",
+                            "position": "small forward",
+                            "team": "Orlando Magics",
+                            "NbaNo": 22
+                          },
+                          {
+                            "playerkey": "MoritzWagner",
+                            "firstName": "Moritz",
+                            "lastName": "Wagner",
+                            "position": "center",
+                            "team": "Orlando Magics",
+                            "NbaNo": 21
+                          },
+
+
+
+
+
+
+
+                          {
+                            "playerkey": "GregBrownIII",
+                            "firstName": "Greg",
+                            "lastName": "Brown III",
+                            "position": "small forward",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 36
+                          },
+                          {
+                            "playerkey": "LukaDoncic",
+                            "firstName": "Luka",
+                            "lastName": "Doncic",
+                            "position": "small forward",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 77
+                          },
+                          {
+                            "playerkey": "DanteExum",
+                            "firstName": "Dante",
+                            "lastName": "Exum",
+                            "position": "point guard",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "AlexFudge",
+                            "firstName": "Alex",
+                            "lastName": "Fudge",
+                            "position": "power forward",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 17
+                          },
+                          {
+                            "playerkey": "DanielGafford",
+                            "firstName": "Daniel",
+                            "lastName": "Gafford",
+                            "position": "power forward",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 21
+                          },
+                          {
+                            "playerkey": "JoshGreen",
+                            "firstName": "Josh",
+                            "lastName": "Green",
+                            "position": "point guard",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 8
+                          },
+                          {
+                            "playerkey": "TimHardawayJr",
+                            "firstName": "Tim",
+                            "lastName": "Hardaway Jr.",
+                            "position": "shooting guard",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 10
+                          },
+                          {
+                            "playerkey": "JadenHardy",
+                            "firstName": "Jaden",
+                            "lastName": "Hardy",
+                            "position": "point guard",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 1
+                          },
+                          {
+                            "playerkey": "KyrieIrving",
+                            "firstName": "Kyrie",
+                            "lastName": "Irving",
+                            "position": "point guard",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 11
+                          },
+                          {
+                            "playerkey": "DerrickJonesJr",
+                            "firstName": "Derrick",
+                            "lastName": "Jones Jr.",
+                            "position": "small forward",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 55
+                          },
+                          {
+                            "playerkey": "MaxiKleber",
+                            "firstName": "Maxi",
+                            "lastName": "Kleber",
+                            "position": "small forward",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 42
+                          },
+                          {
+                            "playerkey": "AJLawson",
+                            "firstName": "A.J.",
+                            "lastName": "Lawson",
+                            "position": "point guard",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 9
+                          },
+                          {
+                            "playerkey": "DereckLivelyII",
+                            "firstName": "Dereck",
+                            "lastName": "Lively II",
+                            "position": "Center",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 2
+                          },
+                          {
+                            "playerkey": "MarkieffMorris",
+                            "firstName": "Markieff",
+                            "lastName": "Morris",
+                            "position": "small forward",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 88
+                          },
+                          {
+                            "playerkey": "DwightPowell",
+                            "firstName": "Dwight",
+                            "lastName": "Powell",
+                            "position": "Power Forward",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 7
+                          },
+                          {
+                            "playerkey": "OlivierMaxenceProsper",
+                            "firstName": "Olivier-Maxence",
+                            "lastName": "Prosper",
+                            "position": "Power Forward",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 18
+                          },
+                          {
+                            "playerkey": "PjWashington",
+                            "firstName": "P.J.",
+                            "lastName": "Washington",
+                            "position": "small forward",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 25
+                          },
+                          {
+                            "playerkey": "BrandonWilliams",
+                            "firstName": "Brandon",
+                            "lastName": "Williams",
+                            "position": "shooting guard",
+                            "team": "Dallas Mavericks",
+                            "NbaNo": 0
+                          },
+                          
+
+
+                          {
+                            "playerkey": "KeitaBatesDiop",
+                            "firstName": "Keita",
+                            "lastName": "Bates-Diop",
+                            "position": "small forward",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 13
+                          },
+                          {
+                            "playerkey": "MikalBridges",
+                            "firstName": "Mikal",
+                            "lastName": "Bridges",
+                            "position": "small forward",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 1
+                          },
+                          {
+                            "playerkey": "NicClaxton",
+                            "firstName": "Nic",
+                            "lastName": "Claxton",
+                            "position": "Center",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 33
+                          },
+                          {
+                            "playerkey": "NoahClowney",
+                            "firstName": "Noah",
+                            "lastName": "Clowney",
+                            "position": "power forward",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 21
+                          },
+                          {
+                            "playerkey": "DorianFinneySmith",
+                            "firstName": "Dorian",
+                            "lastName": "Finney-Smith",
+                            "position": "small forward",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 28
+                          },
+                          {
+                            "playerkey": "JacobGilyard",
+                            "firstName": "Jacob",
+                            "lastName": "Gilyard",
+                            "position": "Point Guard",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 14
+                        },
+                          {
+                            "playerkey": "CameronJohnson",
+                            "firstName": "Cameron",
+                            "lastName": "Johnson",
+                            "position": "Small Forward",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 2
+                        },
+                          {
+                            "playerkey": "KeonJohnson",
+                            "firstName": "Keon",
+                            "lastName": "Johnson",
+                            "position": "Shooting Guard",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 45
+                        },
+                          {
+                            "playerkey": "JaylenMartin",
+                            "firstName": "Jaylen",
+                            "lastName": "Martin",
+                            "position": "Shooting Guard",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 16
+                        },
+                          {
+                            "playerkey": "DennisSchroder",
+                            "firstName": "Dennis",
+                            "lastName": "Schroder",
+                            "position": "Point Guard",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 17
+                        },
+                          {
+                            "playerkey": "DayRonSharpe",
+                            "firstName": "Day'Ron",
+                            "lastName": "Sharpe",
+                            "position": "Center",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 20
+                        },
+                          {
+                            "playerkey": "BenSimmons",
+                            "firstName": "Ben",
+                            "lastName": "Simmons",
+                            "position": "Point Guard",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 10
+                        },
+                          {
+                            "playerkey": "DennisSmithJr",
+                            "firstName": "Dennis",
+                            "lastName": "Smith Jr.",
+                            "position": "Point Guard",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 4
+                        },
+                          {
+                            "playerkey": "CamThomas",
+                            "firstName": "Cam",
+                            "lastName": "Thomas",
+                            "position": "Shooting Guard",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 24
+                        },
+                          {
+                            "playerkey": "LonnieWalkerIV",
+                            "firstName": "Lonnie",
+                            "lastName": "Walker IV",
+                            "position": "Shooting Guard",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 8
+                        },
+                          {
+                            "playerkey": "TrendonWatford",
+                            "firstName": "Trendon",
+                            "lastName": "Watford",
+                            "position": "F",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 9
+                          },
+                          {
+                            "playerkey": "TrendonWatford",
+                            "firstName": "Trendon",
+                            "lastName": "Watford",
+                            "position": "Power Forward",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 9
+                        },
+                          {
+                            "playerkey": "JalenWilson",
+                            "firstName": "Jalen",
+                            "lastName": "Wilson",
+                            "position": "Small Forward",
+                            "team": "Brooklyn Nets",
+                            "NbaNo": 22
+                        },
+
+
+
+
+
+
+
+                          {
+                            "playerkey": "ChristianBraun",
+                            "firstName": "Christian",
+                            "lastName": "Braun",
+                            "position": "shooting guard",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "KentaviousCaldwellPope",
+                            "firstName": "Kentavious",
+                            "lastName": "Caldwell-Pope",
+                            "position": "point guard",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 5
+                          },
+                          {
+                            "playerkey": "VlatkoCancar",
+                            "firstName": "Vlatko",
+                            "lastName": "Cancar",
+                            "position": "small forward",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 31
+                          },
+                          {
+                            "playerkey": "CollinGillespie",
+                            "firstName": "Collin",
+                            "lastName": "Gillespie",
+                            "position": "point guard",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 21
+                          },
+                          {
+                            "playerkey": "AaronGordon",
+                            "firstName": "Aaron",
+                            "lastName": "Gordon",
+                            "position": "power forward",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 50
+                          },
+                          {
+                            "playerkey": "JustinHoliday",
+                            "firstName": "Justin",
+                            "lastName": "Holiday",
+                            "position": "small forward",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 9
+                          },
+                          {
+                            "playerkey": "JayHuff",
+                            "firstName": "Jay",
+                            "lastName": "Huff",
+                            "position": "Center",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 30
+                          },
+                          {
+                            "playerkey": "ReggieJackson",
+                            "firstName": "Reggie",
+                            "lastName": "Jackson",
+                            "position": "point guard",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 7
+                          },
+                          {
+                            "playerkey": "NikolaJokic",
+                            "firstName": "Nikola",
+                            "lastName": "Jokic",
+                            "position": "Center",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 15
+                          },
+                          {
+                            "playerkey": "DeAndreJordan",
+                            "firstName": "DeAndre",
+                            "lastName": "Jordan",
+                            "position": "Center",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 6
+                          },
+                          {
+                            "playerkey": "BraxtonKey",
+                            "firstName": "Braxton",
+                            "lastName": "Key",
+                            "position": "small forward",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 11
+                          },
+                          {
+                            "playerkey": "JamalMurray",
+                            "firstName": "Jamal",
+                            "lastName": "Murray",
+                            "position": "point guard",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 27
+                          },
+                          {
+                            "playerkey": "ZekeNnaji",
+                            "firstName": "Zeke",
+                            "lastName": "Nnaji",
+                            "position": "power forward",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 22
+                          },
+                          {
+                            "playerkey": "JalenPickett",
+                            "firstName": "Jalen",
+                            "lastName": "Pickett",
+                            "position": "point guard",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 24
+                          },
+                          {
+                            "playerkey": "MichaelPorterJr",
+                            "firstName": "Michael",
+                            "lastName": "Porter Jr.",
+                            "position": "small forward",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 1
+                          },
+                          {
+                            "playerkey": "JulianStrawther",
+                            "firstName": "Julian",
+                            "lastName": "Strawther",
+                            "position": "point guard",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 3
+                          },
+                          {
+                            "playerkey": "HunterTyson",
+                            "firstName": "Hunter",
+                            "lastName": "Tyson",
+                            "position": "small forward",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 4
+                          },
+                          {
+                            "playerkey": "PeytonWatson",
+                            "firstName": "Peyton",
+                            "lastName": "Watson",
+                            "position": "point guard",
+                            "team": "Denver Nuggets",
+                            "NbaNo": 8
+                          },
+
+
+
+
+
+
+
+
+
+                          {
+                            "playerkey": "KendallBrown",
+                            "firstName": "Kendall",
+                            "lastName": "Brown",
+                            "position": "sh]",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 10
+                          },
+                          {
+                            "playerkey": "TyreseHaliburton",
+                            "firstName": "Tyrese",
+                            "lastName": "Haliburton",
+                            "position": "point guard",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "IsaiahJackson",
+                            "firstName": "Isaiah",
+                            "lastName": "Jackson",
+                            "position": "small forward",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 22
+                          },
+                          {
+                            "playerkey": "QuentonJackson",
+                            "firstName": "Quenton",
+                            "lastName": "Jackson",
+                            "position": "shooting guard",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 29
+                          },
+                          {
+                            "playerkey": "JamesJohnson",
+                            "firstName": "James",
+                            "lastName": "Johnson",
+                            "position": "power forward",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 16
+                          },
+                          {
+                            "playerkey": "BennedictMathurin",
+                            "firstName": "Bennedict",
+                            "lastName": "Mathurin",
+                            "position": "small forward",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "TJMcConnell",
+                            "firstName": "T.J.",
+                            "lastName": "McConnell",
+                            "position": "point guard",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 9
+                          },
+                          {
+                            "playerkey": "DougMcDermott",
+                            "firstName": "Doug",
+                            "lastName": "McDermott",
+                            "position": "small forward",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 20
+                          },
+                          {
+                            "playerkey": "AndrewNembhard",
+                            "firstName": "Andrew",
+                            "lastName": "Nembhard",
+                            "position": "power forward",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 2
+                          },
+                          {
+                            "playerkey": "AaronNesmith",
+                            "firstName": "Aaron",
+                            "lastName": "Nesmith",
+                            "position": "power forward",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 23
+                          },
+                          {
+                            "playerkey": "BenSheppard",
+                            "firstName": "Ben",
+                            "lastName": "Sheppard",
+                            "position": "point guard",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 26
+                          },
+                          {
+                            "playerkey": "PascalSiakam",
+                            "firstName": "Pascal",
+                            "lastName": "Siakam",
+                            "position": "power forward",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 43
+                          },
+                          {
+                            "playerkey": "JalenSmith",
+                            "firstName": "Jalen",
+                            "lastName": "Smith",
+                            "position": "power forward",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 25
+                          },
+                          {
+                            "playerkey": "ObiToppin",
+                            "firstName": "Obi",
+                            "lastName": "Toppin",
+                            "position": "small forward",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 1
+                          },
+                          {
+                            "playerkey": "OscarTshiebwe",
+                            "firstName": "Oscar",
+                            "lastName": "Tshiebwe",
+                            "position": "power forward",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 44
+                          },
+                          {
+                            "playerkey": "MylesTurner",
+                            "firstName": "Myles",
+                            "lastName": "Turner",
+                            "position": "center",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 33
+                          },
+                          {
+                            "playerkey": "JaraceWalker",
+                            "firstName": "Jarace",
+                            "lastName": "Walker",
+                            "position": "power forward",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 5
+                          },
+                          {
+                            "playerkey": "IsaiahWong",
+                            "firstName": "Isaiah",
+                            "lastName": "Wong",
+                            "position": "shooting guard",
+                            "team": "Indiana Pacers",
+                            "NbaNo": 21
+                          },
+
+
+
+
+
+
+
+                          {
+                            "playerkey": "JoseAlvarado",
+                            "firstName": "Jose",
+                            "lastName": "Alvarado",
+                            "position": "point guard",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 15
+                          },
+                          {
+                            "playerkey": "DysonDaniels",
+                            "firstName": "Dyson",
+                            "lastName": "Daniels",
+                            "position": "point guard",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 11
+                          },
+                          {
+                            "playerkey": "JordanHawkins",
+                            "firstName": "Jordan",
+                            "lastName": "Hawkins",
+                            "position": "shooting guard",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 24
+                          },
+                          {
+                            "playerkey": "MalcolmHill",
+                            "firstName": "Malcolm",
+                            "lastName": "Hill",
+                            "position": "Small Forward",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 33
+                          },
+                          {
+                            "playerkey": "BrandonIngram",
+                            "firstName": "Brandon",
+                            "lastName": "Ingram",
+                            "position": "SmallForward",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 14
+                          },
+                          {
+                            "playerkey": "HerbertJones",
+                            "firstName": "Herbert",
+                            "lastName": "Jones",
+                            "position": "power forward",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 5
+                          },
+                          {
+                            "playerkey": "EJLiddell",
+                            "firstName": "E.J.",
+                            "lastName": "Liddell",
+                            "position": "small forward",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 32
+                          },
+                          {
+                            "playerkey": "NajiMarshall",
+                            "firstName": "Naji",
+                            "lastName": "Marshall",
+                            "position": "small forward",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 8
+                          },
+                          {
+                            "playerkey": "CJMcCollum",
+                            "firstName": "CJ",
+                            "lastName": "McCollum",
+                            "position": "point guard",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 3
+                          },
+                          {
+                            "playerkey": "TreyMurphyIII",
+                            "firstName": "Trey",
+                            "lastName": "Murphy III",
+                            "position": "power forward",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 25
+                          },
+                          {
+                            "playerkey": "LarryNanceJr",
+                            "firstName": "Larry",
+                            "lastName": "Nance Jr.",
+                            "position": "center",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 22
+                          },
+                          {
+                            "playerkey": "JeremiahRobinsonEarl",
+                            "firstName": "Jeremiah",
+                            "lastName": "Robinson-Earl",
+                            "position": "power forward",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 50
+                          },
+                          {
+                            "playerkey": "MattRyan",
+                            "firstName": "Matt",
+                            "lastName": "Ryan",
+                            "position": "small forward",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 37
+                          },
+                          {
+                            "playerkey": "DereonSeabron",
+                            "firstName": "Dereon",
+                            "lastName": "Seabron",
+                            "position": "power forward",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "JonasValanciunas",
+                            "firstName": "Jonas",
+                            "lastName": "Valanciunas",
+                            "position": "Center",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 17
+                          },
+                          {
+                            "playerkey": "ZionWilliamson",
+                            "firstName": "Zion",
+                            "lastName": "Williamson",
+                            "position": "power forward",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 1
+                          },
+                          {
+                            "playerkey": "CodyZeller",
+                            "firstName": "Cody",
+                            "lastName": "Zeller",
+                            "position": "power forward",
+                            "team": "New Orleans Pelicans",
+                            "NbaNo": 40
+                          },
+
+
+
+
+
+
+
+
+                          {
+                            "playerkey": "BuddyBoeheim",
+                            "firstName": "Buddy",
+                            "lastName": "Boeheim",
+                            "position": "small forward",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 27
+                          },
+                          {
+                            "playerkey": "TroyBrownJr",
+                            "firstName": "Troy",
+                            "lastName": "Brown Jr.",
+                            "position": "shooting guard",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 7
+                          },
+                          {
+                            "playerkey": "CadeCunningham",
+                            "firstName": "Cade",
+                            "lastName": "Cunningham",
+                            "position": "point guard",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 2
+                          },
+                          {
+                            "playerkey": "JalenDuren",
+                            "firstName": "Jalen",
+                            "lastName": "Duren",
+                            "position": "Center",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "TosanEvbuomwan",
+                            "firstName": "Tosan",
+                            "lastName": "Evbuomwan",
+                            "position": "small forward",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 18
+                          },
+                          {
+                            "playerkey": "MalachiFlynn",
+                            "firstName": "Malachi",
+                            "lastName": "Flynn",
+                            "position": "point guard",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 18
+                          },
+                          {
+                            "playerkey": "SimoneFontecchio",
+                            "firstName": "Simone",
+                            "lastName": "Fontecchio",
+                            "position": "small forward",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 19
+                          },
+                          {
+                            "playerkey": "EvanFournier",
+                            "firstName": "Evan",
+                            "lastName": "Fournier",
+                            "position": "small forward",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 31
+                          },
+                          {
+                            "playerkey": "TajGibson",
+                            "firstName": "Taj",
+                            "lastName": "Gibson",
+                            "position": "power forward",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 67
+                          },
+                          {
+                            "playerkey": "QuentinGrimes",
+                            "firstName": "Quentin",
+                            "lastName": "Grimes",
+                            "position": "shooting guard",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 24
+                          },
+                          {
+                            "playerkey": "JadenIvey",
+                            "firstName": "Jaden",
+                            "lastName": "Ivey",
+                            "position": "point guard",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 23
+                          },
+                          {
+                            "playerkey": "ChimezieMetu",
+                            "firstName": "Chimezie",
+                            "lastName": "Metu",
+                            "position": "power forward",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 4
+                          },
+                          {
+                            "playerkey": "JaredRhoden",
+                            "firstName": "Jared",
+                            "lastName": "Rhoden",
+                            "position": "shooting guard",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 8
+                          },
+                          {
+                            "playerkey": "MarcusSasser",
+                            "firstName": "Marcus",
+                            "lastName": "Sasser",
+                            "position": "point guard",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 25
+                          },
+                          {
+                            "playerkey": "IsaiahStewart",
+                            "firstName": "Isaiah",
+                            "lastName": "Stewart",
+                            "position": "power forward",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 28
+                          },
+                          {
+                            "playerkey": "AusarThompson",
+                            "firstName": "Ausar",
+                            "lastName": "Thompson",
+                            "position": "small forward",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 9
+                          },
+                          {
+                            "playerkey": "StanleyUmude",
+                            "firstName": "Stanley",
+                            "lastName": "Umude",
+                            "position": "point guard",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 17
+                          },
+                          {
+                            "playerkey": "JamesWiseman",
+                            "firstName": "James",
+                            "lastName": "Wiseman",
+                            "position": "center",
+                            "team": "Detroit Pistons",
+                            "NbaNo": 13
+                          },
+
+
+
+
+
+
+
+                          {
+                            "playerkey": "OchaiAgbaji",
+                            "firstName": "Ochai",
+                            "lastName": "Agbaji",
+                            "position": "point guard",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 30
+                          },
+                          {
+                            "playerkey": "ScottieBarnes",
+                            "firstName": "Scottie",
+                            "lastName": "Barnes",
+                            "position": "small forward",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 4
+                          },
+                          {
+                            "playerkey": "RJBarrett",
+                            "firstName": "RJ",
+                            "lastName": "Barrett",
+                            "position": "shooting guard",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 9
+                          },
+                          {
+                            "playerkey": "ChrisBoucher",
+                            "firstName": "Chris",
+                            "lastName": "Boucher",
+                            "position": "small forward",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 25
+                          },
+                          {
+                            "playerkey": "BruceBrown",
+                            "firstName": "Bruce",
+                            "lastName": "Brown",
+                            "position": "power forward",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 11
+                          },
+                          {
+                            "playerkey": "DJCarton",
+                            "firstName": "D.J.",
+                            "lastName": "Carton",
+                            "position": "point guard",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 3
+                          },
+                          {
+                            "playerkey": "GradeyDick",
+                            "firstName": "Gradey",
+                            "lastName": "Dick",
+                            "position": "shooting guard",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 1
+                          },
+                          {
+                            "playerkey": "JavonFreemanLiberty",
+                            "firstName": "Javon",
+                            "lastName": "Freeman-Liberty",
+                            "position": "point guard",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "MouhamadouGueye",
+                            "firstName": "Mouhamadou",
+                            "lastName": "Gueye",
+                            "position": "small forward",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 16
+                          },
+                          {
+                            "playerkey": "JalenMcDaniels",
+                            "firstName": "Jalen",
+                            "lastName": "McDaniels",
+                            "position": "power forward",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 2
+                          },
+                          {
+                            "playerkey": "JordanNwora",
+                            "firstName": "Jordan",
+                            "lastName": "Nwora",
+                            "position": "power forward",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 13
+                          },
+                          {
+                            "playerkey": "KellyOlynyk",
+                            "firstName": "Kelly",
+                            "lastName": "Olynyk",
+                            "position": "power forward",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 41
+                          },
+                          {
+                            "playerkey": "JakobPoeltl",
+                            "firstName": "Jakob",
+                            "lastName": "Poeltl",
+                            "position": "center",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 19
+                          },
+                          {
+                            "playerkey": "ImmanuelQuickley",
+                            "firstName": "Immanuel",
+                            "lastName": "Quickley",
+                            "position": "shooting guard",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 5
+                          },
+                          {
+                            "playerkey": "GarrettTemple",
+                            "firstName": "Garrett",
+                            "lastName": "Temple",
+                            "position": "small forward",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 17
+                          },
+                          {
+                            "playerkey": "GaryTrentJr",
+                            "firstName": "Gary",
+                            "lastName": "Trent Jr.",
+                            "position": "Shooting Guard",
+                            "team": "Toronto Raptors",
+                            "NbaNo": 33
+                          },
+
+
+
+
+
+
+
+
+                          {
+                            "playerkey": "CediOsman",
+                            "firstName": "Cedi",
+                            "lastName": "Osman",
+                            "position": "Forward",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 16
+                        },
+                        {
+                            "playerkey": "SandroMamukelashvili",
+                            "firstName": "Sandro",
+                            "lastName": "Mamukelashvili",
+                            "position": "Forward-Center",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 54
+                        },
+                        {
+                            "playerkey": "TreJones",
+                            "firstName": "Tre",
+                            "lastName": "Jones",
+                            "position": "Guard",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 33
+                        },
+                        {
+                            "playerkey": "KeldonJohnson",
+                            "firstName": "Keldon",
+                            "lastName": "Johnson",
+                            "position": "Forward-Guard",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 3
+                        },
+                        {
+                            "playerkey": "RaiQuanGray",
+                            "firstName": "RaiQuan",
+                            "lastName": "Gray",
+                            "position": "Forward",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 0
+                        },
+                        {
+                            "playerkey": "DevonteGraham",
+                            "firstName": "Devonte",
+                            "lastName": "Graham",
+                            "position": "Guard",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 4
+                        },
+                        {
+                            "playerkey": "DavidDukeJr",
+                            "firstName": "David",
+                            "lastName": "Duke Jr.",
+                            "position": "Guard",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 28
+                        },
+                        {
+                            "playerkey": "ZachCollins",
+                            "firstName": "Zach",
+                            "lastName": "Collins",
+                            "position": "Forward-Center",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 23
+                        },
+                        {
+                            "playerkey": "SidyCissoko",
+                            "firstName": "Sidy",
+                            "lastName": "Cissoko",
+                            "position": "Guard",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 25
+                        },
+                        {
+                            "playerkey": "JulianChampagnie",
+                            "firstName": "Julian",
+                            "lastName": "Champagnie",
+                            "position": "Forward",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 30
+                        },
+                        {
+                            "playerkey": "MalakiBranham",
+                            "firstName": "Malaki",
+                            "lastName": "Branham",
+                            "position": "Forward",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 22
+                        },
+                        {
+                            "playerkey": "JamareeBouyea",
+                            "firstName": "Jamaree",
+                            "lastName": "Bouyea",
+                            "position": "point guard",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 21
+                        },
+                        {
+                            "playerkey": "CharlesBassey",
+                            "firstName": "Charles",
+                            "lastName": "Bassey",
+                            "position": "Center-Forward",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 28
+                        },
+                        {
+                            "playerkey": "DominickBarlow",
+                            "firstName": "Dominick",
+                            "lastName": "Barlow",
+                            "position": "Forward",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 26
+                        },
+                        {
+                            "playerkey": "JeremySochan",
+                            "firstName": "Jeremy",
+                            "lastName": "Sochan",
+                            "position": "small forward",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 10
+                        },
+                        {
+                            "playerkey": "DevinVassell",
+                            "firstName": "Devin",
+                            "lastName": "Vassell",
+                            "position": "shooting guard",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 24
+                        },
+                        {
+                            "playerkey": "VictorWembanyama",
+                            "firstName": "Victor",
+                            "lastName": "Wembanyama",
+                            "position": "power forward",
+                            "team": "San Antonio Spurs",
+                            "NbaNo": 1
+                        },
+
+
+
+
+
+
+                        {
+                            "playerkey": "GraysonAllen",
+                            "firstName": "Grayson",
+                            "lastName": "Allen",
+                            "position": "Guard",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 8
+                        },
+                        {
+                            "playerkey": "UdokaAzubuike",
+                            "firstName": "Udoka",
+                            "lastName": "Azubuike",
+                            "position": "Center-Forward",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 27
+                        },
+                        {
+                            "playerkey": "BradleyBeal",
+                            "firstName": "Bradley",
+                            "lastName": "Beal",
+                            "position": "Guard",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 3
+                        },
+                        {
+                            "playerkey": "BolBol",
+                            "firstName": "Bol",
+                            "lastName": "Bol",
+                            "position": "Center-Forward",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 11
+                        },
+                        {
+                            "playerkey": "DevinBooker",
+                            "firstName": "Devin",
+                            "lastName": "Booker",
+                            "position": "Guard",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 1
+                        },
+                        {
+                            "playerkey": "KevinDurant",
+                            "firstName": "Kevin",
+                            "lastName": "Durant",
+                            "position": "Forward",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 35
+                        },
+                        {
+                            "playerkey": "DrewEubanks",
+                            "firstName": "Drew",
+                            "lastName": "Eubanks",
+                            "position": "Forward-Center",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 14
+                        },
+                        {
+                            "playerkey": "EricGordon",
+                            "firstName": "Eric",
+                            "lastName": "Gordon",
+                            "position": "Guard",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 23
+                        },
+                        {
+                            "playerkey": "DamionLee",
+                            "firstName": "Damion",
+                            "lastName": "Lee",
+                            "position": "Guard-Forward",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 10
+                        },
+                        {
+                            "playerkey": "SabenLee",
+                            "firstName": "Saben",
+                            "lastName": "Lee",
+                            "position": "Guard",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 38
+                        },
+                        {
+                            "playerkey": "NassirLittle",
+                            "firstName": "Nassir",
+                            "lastName": "Little",
+                            "position": "Forward-Guard",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 25
+                        },
+                        {
+                            "playerkey": "JusufNurkic",
+                            "firstName": "Jusuf",
+                            "lastName": "Nurkic",
+                            "position": "Center",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 20
+                        },
+                        {
+                            "playerkey": "RoyceO'Neale",
+                            "firstName": "Royce",
+                            "lastName": "O'Neale",
+                            "position": "Forward",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 0
+                        },
+                        {
+                            "playerkey": "JoshOkogie",
+                            "firstName": "Josh",
+                            "lastName": "Okogie",
+                            "position": "Guard",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 2
+                        },
+                        {
+                            "playerkey": "DavidRoddy",
+                            "firstName": " David",
+                            "lastName": "Roddy",
+                            "position": "Forward",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 21
+                        },
+                        {
+                            "playerkey": "IsaiahThomas",
+                            "firstName": "Isaiah",
+                            "lastName": "Thomas",
+                            "position": "Guard",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 4
+                        },
+                        {
+                            "playerkey": "IshWainright",
+                            "firstName": "Ish",
+                            "lastName": "Wainright",
+                            "position": "Forward",
+                            "team": "Phoenix Suns",
+                            "NbaNo": 12
+                        },
+                        {
+                            "playerkey": "ThaddeusYoung",
+                            "firstName": "Thaddeus",
+                            "lastName": "Young",
+                            "position": "Forward",
+                            "team": "Phoenix Suns",
+                            "NbaNo": "30"
+                        },
+
+
+
+
+
+
+
+                        {
+                            "playerkey": "BismackBiyombo",
+                            "firstName": "Bismack",
+                            "lastName": "Biyombo",
+                            "position": "Center",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 15
+                        },
+                        {
+                            "playerkey": "OusmaneDieng",
+                            "firstName": "Ousmane",
+                            "lastName": "Dieng",
+                            "position": "Forward",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 13
+                        },
+                        {
+                            "playerkey": "LuguentzDort",
+                            "firstName": "Luguentz",
+                            "lastName": "Dort",
+                            "position": "Guard",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 5
+                        },
+                        {
+                            "playerkey": "AdamFlagler",
+                            "firstName": "Adam",
+                            "lastName": "Flagler",
+                            "position": "Guard",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 14
+                        },
+                        {
+                            "playerkey": "JoshGiddey",
+                            "firstName": "Josh",
+                            "lastName": "Giddey",
+                            "position": "Guard",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 3
+                        },
+                        {
+                            "playerkey": "ShaiGilgeous-Alexander",
+                            "firstName": "Shai",
+                            "lastName": "Gilgeous-Alexander",
+                            "position": "Guard",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 2
+                        },
+                        {
+                            "playerkey": "GordonHayward",
+                            "firstName": "Gordon",
+                            "lastName": "Hayward",
+                            "position": "Forward",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 33
+                        },
+                        {
+                            "playerkey": "ChetHolmgren",
+                            "firstName": "Chet",
+                            "lastName": "Holmgren",
+                            "position": "Center-Forward",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 7
+                        },
+                        {
+                            "playerkey": "IsaiahJoe",
+                            "firstName": "Isaiah",
+                            "lastName": "Joe",
+                            "position": "Guard",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 11
+                        },
+                        {
+                            "playerkey": "KeyontaeJohnson",
+                            "firstName": "Keyontae",
+                            "lastName": "Johnson",
+                            "position": "Forward",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 18
+                        },
+                        {
+                            "playerkey": "MikeMuscala",
+                            "firstName": "Mike",
+                            "lastName": "Muscala",
+                            "position": "Forward-Center",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 50
+                        },
+                        {
+                            "playerkey": "OlivierSarr",
+                            "firstName": "Olivier",
+                            "lastName": "Sarr",
+                            "position": "Center",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 30
+                        },
+                        {
+                            "playerkey": "CasonWallace",
+                            "firstName": "Cason",
+                            "lastName": "Wallace",
+                            "position": "Guard",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 22
+                        },
+                        {
+                            "playerkey": "LindyWatersIII",
+                            "firstName": "Lindy",
+                            "lastName": "Waters III",
+                            "position": "Forward",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 12
+                        },
+                        {
+                            "playerkey": "AaronWiggins",
+                            "firstName": "Aaron",
+                            "lastName": "Wiggins",
+                            "position": "Guard",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 21
+                        },
+                        {
+                            "playerkey": "JalenWilliams",
+                            "firstName": "Jalen",
+                            "lastName": "Williams",
+                            "position": "Guard-Forward",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 8
+                        },
+                        {
+                            "playerkey": "JaylinWilliams",
+                            "firstName": "Jaylin",
+                            "lastName": "Williams",
+                            "position": "Forward",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 6
+                        },
+                        {
+                            "playerkey": "KenrichWilliams",
+                            "firstName": "Kenrich",
+                            "lastName": "Williams",
+                            "position": "Guard-Forward",
+                            "team": "Oklohoma City Thunders",
+                            "NbaNo": 34
+
+                        },
+
+
+
+
+
+
+
+
+
+                        {
+                            "playerkey": "NickeilAlexander-Walker",
+                            "firstName": "Nickeil",
+                            "lastName": "Alexander-Walker",
+                            "position": "Guard",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 9
+                        },
+                        {
+                            "playerkey": "KyleAnderson",
+                            "firstName": "Kyle",
+                            "lastName": "Anderson",
+                            "position": "Forward-Guard",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 1
+                        },
+                        {
+                            "playerkey": "JaylenClark",
+                            "firstName": "Jaylen",
+                            "lastName": "Clark",
+                            "position": "Guard",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 0
+                        },
+                        {
+                            "playerkey": "MikeConley",
+                            "firstName": "Mike",
+                            "lastName": "Conley",
+                            "position": "Guard",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 10
+                        },
+                        {
+                            "playerkey": "AnthonyEdwards",
+                            "firstName": "Anthony",
+                            "lastName": "Edwards",
+                            "position": "Guard",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 5
+                        },
+                        {
+                            "playerkey": "LukaGarza",
+                            "firstName": "Luka",
+                            "lastName": "Garza",
+                            "position": "Center",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 55
+                        },
+                        {
+                            "playerkey": "RudyGobert",
+                            "firstName": "Rudy",
+                            "lastName": "Gobert",
+                            "position": "Center",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 27
+                        },
+                        {
+                            "playerkey": "JadenMcDaniels",
+                            "firstName": "Jaden",
+                            "lastName": "McDaniels",
+                            "position": "Forward",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 3
+                        },
+                        {
+                            "playerkey": "JordanMcLaughlin",
+                            "firstName": "Jordan",
+                            "lastName": "McLaughlin",
+                            "position": "Guard",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 6
+                        },
+                        {
+                            "playerkey": "LeonardMiller",
+                            "firstName": "Leonard",
+                            "lastName": "Miller",
+                            "position": "Forward",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 33
+                        },
+                        {
+                            "playerkey": "JoshMinott",
+                            "firstName": "Josh",
+                            "lastName": "Minott",
+                            "position": "Forward",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 8
+                        },
+                        {
+                            "playerkey": "WendellMooreJr.",
+                            "firstName": "Wendell",
+                            "lastName": "Moore Jr.",
+                            "position": "Guard",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 7
+                        },
+                        {
+                            "playerkey": "MonteMorris",
+                            "firstName": "Monte",
+                            "lastName": "Morris",
+                            "position": "Guard",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 23
+                        },
+                        {
+                            "playerkey": "DaishenNix",
+                            "firstName": "Daishen",
+                            "lastName": "Nix",
+                            "position": "Guard",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 12
+                        },
+                        {
+                            "playerkey": "NazReid",
+                            "firstName": "Naz",
+                            "lastName": "Reid",
+                            "position": "Center-Forward",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 11
+                        },
+                        {
+                            "playerkey": "Karl-AnthonyTowns",
+                            "firstName": "Karl-Anthony",
+                            "lastName": "Towns",
+                            "position": "Center-Forward",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 32
+                        },
+                        {
+                            "playerkey": "T.J.Warren",
+                            "firstName": "T.J.",
+                            "lastName": "Warren",
+                            "position": "Forward",
+                            "team": "Minnesota Timberwolves",
+                            "NbaNo": 24
+                        },
+
+
+
+
+
+
+
+
+                        {
+                            "playerkey": "DeandreAyton",
+                            "firstName": "Deandre",
+                            "lastName": "Ayton",
+                            "position": "Center",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 2
+                        },
+                        {
+                            "playerkey": "IbouBadji",
+                            "firstName": "Ibou",
+                            "lastName": "Badji",
+                            "position": "Center",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 41
+                        },
+                        {
+                            "playerkey": "DalanoBanton",
+                            "firstName": "Dalano",
+                            "lastName": "Banton",
+                            "position": "Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 5
+                        },
+                        {
+                            "playerkey": "MalcolmBrogdon",
+                            "firstName": "Malcolm",
+                            "lastName": "Brogdon",
+                            "position": "Guard",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 11
+                        },
+                        {
+                            "playerkey": "MosesBrown",
+                            "firstName": "Moses",
+                            "lastName": "Brown",
+                            "position": "Center",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 10
+                        },
+                        {
+                            "playerkey": "ToumaniCamara",
+                            "firstName": "Toumani",
+                            "lastName": "Camara",
+                            "position": "Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 33
+                        },
+                        {
+                            "playerkey": "JeramiGrant",
+                            "firstName": "Jerami",
+                            "lastName": "Grant",
+                            "position": "Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 9
+                        },
+                        {
+                            "playerkey": "AshtonHagans",
+                            "firstName": "Ashton",
+                            "lastName": "Hagans",
+                            "position": "Guard-Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 19
+                        },
+                        {
+                            "playerkey": "ScootHenderson",
+                            "firstName": "Scoot",
+                            "lastName": "Henderson",
+                            "position": "Guard",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 0
+                        },
+                        {
+                            "playerkey": "JustinMinaya",
+                            "firstName": "Justin",
+                            "lastName": "Minaya",
+                            "position": "Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 24
+                        },
+                        {
+                            "playerkey": "KrisMurray",
+                            "firstName": "Kris",
+                            "lastName": "Murray",
+                            "position": "Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 8
+                        },
+                        {
+                            "playerkey": "DuopReath",
+                            "firstName": "Duop",
+                            "lastName": "Reath",
+                            "position": "Center",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 26
+                        },
+                        {
+                            "playerkey": "RayanRupert",
+                            "firstName": "Rayan",
+                            "lastName": "Rupert",
+                            "position": "Guard-Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 72
+                        },
+                        {
+                            "playerkey": "ShaedonSharpe",
+                            "firstName": "Shaedon",
+                            "lastName": "Sharpe",
+                            "position": "Guard",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 35
+                        },
+
+
+
+
+                        {
+                            "playerkey": "DeandreAyton",
+                            "firstName": "Deandre",
+                            "lastName": "Ayton",
+                            "position": "Center",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 2
+                        },
+                        {
+                            "playerkey": "IbouBadji",
+                            "firstName": "Ibou",
+                            "lastName": "Badji",
+                            "position": "Center",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 41
+                        },
+                        {
+                            "playerkey": "DalanoBanton",
+                            "firstName": "Dalano",
+                            "lastName": "Banton",
+                            "position": "Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 5
+                        },
+                        {
+                            "playerkey": "MalcolmBrogdon",
+                            "firstName": "Malcolm",
+                            "lastName": "Brogdon",
+                            "position": "Guard",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 11
+                        },
+                        {
+                            "playerkey": "MosesBrown",
+                            "firstName": "Moses",
+                            "lastName": "Brown",
+                            "position": "Center",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 10
+                        },
+                        {
+                            "playerkey": "ToumaniCamara",
+                            "firstName": "Toumani",
+                            "lastName": "Camara",
+                            "position": "Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 33
+                        },
+                        {
+                            "playerkey": "JeramiGrant",
+                            "firstName": "Jerami",
+                            "lastName": "Grant",
+                            "position": "Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 9
+                        },
+                        {
+                            "playerkey": "AshtonHagans",
+                            "firstName": "Ashton",
+                            "lastName": "Hagans",
+                            "position": "Guard-Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 19
+                        },
+                        {
+                            "playerkey": "ScootHenderson",
+                            "firstName": "Scoot",
+                            "lastName": "Henderson",
+                            "position": "Guard",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 0
+                        },
+                        {
+                            "playerkey": "JustinMinaya",
+                            "firstName": "Justin",
+                            "lastName": "Minaya",
+                            "position": "Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 24
+                        },
+                        {
+                            "playerkey": "KrisMurray",
+                            "firstName": "Kris",
+                            "lastName": "Murray",
+                            "position": "Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 8
+                        },
+                        {
+                            "playerkey": "DuopReath",
+                            "firstName": "Duop",
+                            "lastName": "Reath",
+                            "position": "Center",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 26
+                        },
+                        {
+                            "playerkey": "RayanRupert",
+                            "firstName": "Rayan",
+                            "lastName": "Rupert",
+                            "position": "Guard-Forward",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 72
+                        },
+                        {
+                            "playerkey": "ShaedonSharpe",
+                            "firstName": "Shaedon",
+                            "lastName": "Sharpe",
+                            "position": "Guard",
+                            "team": "Portland Trailblazers",
+                            "NbaNo": 22
+                        },
+
+
+                        {
+                            "playerkey": "DeniAvdija",
+                            "firstName": "Deni",
+                            "lastName": "Avdija",
+                            "position": "Forward",
+                            "team": "Washington Wizards",
+                            "NbaNo": 8
+                          },
+                          {
+                            "playerkey": "MarvinBagleyIII",
+                            "firstName": "Marvin",
+                            "lastName": "Bagley III",
+                            "position": "Forward",
+                            "team": "Washington Wizards",
+                            "NbaNo": 35
+                          },
+                          {
+                            "playerkey": "PatrickBaldwinJr",
+                            "firstName": "Patrick",
+                            "lastName": "Baldwin Jr.",
+                            "position": "Forward",
+                            "team": "Washington Wizards",
+                            "NbaNo": 7
+                          },
+                          {
+                            "playerkey": "JulesBernard",
+                            "firstName": "Jules",
+                            "lastName": "Bernard",
+                            "position": "Guard",
+                            "team": "Washington Wizards",
+                            "NbaNo": 14
+                          },
+                          {
+                            "playerkey": "JaredButler",
+                            "firstName": "Jared",
+                            "lastName": "Butler",
+                            "position": "Guard",
+                            "team": "Washington Wizards",
+                            "NbaNo": 4
+                          },
+                          {
+                            "playerkey": "JustinChampagnie",
+                            "firstName": "Justin",
+                            "lastName": "Champagnie",
+                            "position": "Guard-Forward",
+                            "team": "Washington Wizards",
+                            "NbaNo": 99
+                          },
+                          {
+                            "playerkey": "BilalCoulibaly",
+                            "firstName": "Bilal",
+                            "lastName": "Coulibaly",
+                            "position": "Guard",
+                            "team": "Washington Wizards",
+                            "NbaNo": 0
+                          },
+                          {
+                            "playerkey": "JohnnyDavis",
+                            "firstName": "Johnny",
+                            "lastName": "Davis",
+                            "position": "Guard",
+                            "team": "Washington Wizards",
+                            "NbaNo": 1
+                          },
+                          {
+                            "playerkey": "AnthonyGill",
+                            "firstName": "Anthony",
+                            "lastName": "Gill",
+                            "position": "Forward",
+                            "team": "Washington Wizards",
+                            "NbaNo": 16
+                          },
+                          {
+                            "playerkey": "RichaunHolmes",
+                            "firstName": "Richaun",
+                            "lastName": "Holmes",
+                            "position": "Forward",
+                            "team": "Washington Wizards",
+                            "NbaNo": 22
+                          },
+                          {
+                            "playerkey": "TyusJones",
+                            "firstName": "Tyus",
+                            "lastName": "Jones",
+                            "position": "Guard",
+                            "team": "Washington Wizards",
+                            "NbaNo": 5
+                          },
+                          {
+                            "playerkey": "CoreyKispert",
+                            "firstName": "Corey",
+                            "lastName": "Kispert",
+                            "position": "Forward",
+                            "team": "Washington Wizards",
+                            "NbaNo": 24
+                          },
+                          {
+                            "playerkey": "KyleKuzma",
+                            "firstName": "Kyle",
+                            "lastName": "Kuzma",
+                            "position": "Forward",
+                            "team": "Washington Wizards",
+                            "NbaNo": 33
+                          },
+                          {
+                            "playerkey": "EugeneOmoruyi",
+                            "firstName": "Eugene",
+                            "lastName": "Omoruyi",
+                            "position": "Forward",
+                            "team": "Washington Wizards",
+                            "NbaNo": 97
+                          },
+                          {
+                            "playerkey": "JordanPoole",
+                            "firstName": "Jordan",
+                            "lastName": "Poole",
+                            "position": "Guard",
+                            "team": "Washington Wizards",
+                            "NbaNo": 13
+                          },
+                          {
+                            "playerkey": "LandryShamet",
+                            "firstName": "Landry",
+                            "lastName": "Shamet",
+                            "position": "Guard",
+                            "team": "Washington Wizards",
+                            "NbaNo": 20
+                          }
+                        ]
+                    }
+                
+
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+
+
+
+
+
+                     
+                      

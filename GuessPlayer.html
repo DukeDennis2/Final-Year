@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Player Guessing Game</title>
+    <link rel="stylesheet" href="css/GuessPlayer.css">    
+</head>
+
+<body>
+    <div id="game-container">
+        <h1 style="color: white;">NBA Player: Guess Who</h1>
+        <div id="player-container">
+            <img id="player-image" src="" alt="NBA Player" width="2000" height="700">
+        </div>
+
+        <p id="timer">
+            01:00
+        </p>
+
+        <h2> Who is this player?</h2>
+        <input type="text" id="guess-input" placeholder="Enter your guess">
+        <button id="select" onclick="checkGuess()">Submit Guess</button>
+        <button id="nextPlayer" onclick="loadNextPlayer()">Next Player</button>
+        <p id="result-message"></p>
+        <div id="score">Score: 0</div>
+
+        <!-- Hint Text -->
+        <p id="hint-text"> Hint: Make sure the spelling and punctuations are all in the correct places.</p>
+
+    </div>
+
+    <script src="js/guessplayer.js"> </script>
+</body>
+</html>
+

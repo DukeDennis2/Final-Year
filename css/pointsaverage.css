@@ -1,0 +1,80 @@
+/* Basic styling for the quiz game */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #131313;
+    text-align: center;
+
+    color: #ffffff;
+    padding: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+#quiz-container {
+    padding: 20px;
+  
+    background-color: #ffffff00;
+    border-radius: 10px;
+    width: 40%;
+    margin: 50px auto;
+}
+
+#score {
+    
+    font-size: 4.2em;
+    margin-bottom: 10px;
+}
+
+#question {
+    margin: 20px 0;
+}
+
+#question img {
+    width: 100%;
+    height: 100%;
+}
+
+#question-text {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the defeat page */
+#defeat-page {
+    padding: 20px;
+    background-color: #ffdddd;
+    border: 1px solid #dd4444;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#defeat-page h1 {
+    color: #dd4444;
+}
+
+#defeat-page p {
+    font-size: 1.2em;
+}
+
+/* Transition effect when game ends */
+.defeat-visible {
+    opacity: 1;
+}

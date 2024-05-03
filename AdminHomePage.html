@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-chrome">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome to NBA: Hit or Miss</title>
+        <link rel="stylesheet" href="css/AdminHomePage.css">
+    </head>
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><img src="img/icons8-x-100.png" style="width: 20px; height: 20px;"></a></li>
+            <li><a a href="AdminHomePage.html">Home</a></li>
+            <li><a a href="features.html">Features</a></li>
+            <li><a a href="help.html">Help</a></li>
+            <li><a a href="register.html">Logout</a></li>
+    
+        </ul>
+        <ul>
+            <li ><a href="#">NBA: Hit or Miss</a></li>
+            <li class="hideOnMobile"><a a href="AdminHomePage.html">Home</a></li>
+            <li class="hideOnMobile"><a a href="help.html">Help</a></li>
+            <li class="hideOnMobile"><a a href="register.html">Logout</a></li>
+            <li onclick=showSidebar()><a href="#"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="24px" height="24px"><path d="M 3 9 A 1.0001 1.0001 0 1 0 3 11 L 47 11 A 1.0001 1.0001 0 1 0 47 9 L 3 9 z M 3 24 A 1.0001 1.0001 0 1 0 3 26 L 47 26 A 1.0001 1.0001 0 1 0 47 24 L 3 24 z M 3 39 A 1.0001 1.0001 0 1 0 3 41 L 47 41 A 1.0001 1.0001 0 1 0 47 39 L 3 39 z"/></svg></a></li>
+        </ul>
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar(){
+                const sidebar = document.querySelector('sidebar')
+                sidebar.style.display = 'hide'
+            }
+           
+        
+        </script>
+    </nav>
+
+    <body>
+        
+            <div class="admin" id="admin">
+            <h2> Welcome admin </h2>
+            <a href="adminNbaData.html">Click here to sort out NBA team data </a>
+            </div>
+
+              
+    </body>
+
+    <script src="js/adminHomePage.js"></script>
+    <script>
+
+    </script>
+
+</html>

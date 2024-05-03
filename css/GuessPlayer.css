@@ -1,0 +1,105 @@
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans--apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, "sans-serif";
+}
+
+player-container { 
+    background-size: 60px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222; /* Set a background color for better visibility of white text */
+    color: white; /* Set the default text color to white */
+}
+
+#game-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+#player-image {
+    height: 100%;
+    width: 100%;
+   
+    margin-bottom: 10px;
+}
+h1{
+    color: white;
+    font-weight: 100;
+}
+h2{
+    margin-top: 10%;
+    font-weight: 200;
+    font-size: 30px;
+}
+#timer{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#guess-input {
+    width: calc(100% - 120px); /* Adjust width to accommodate button width */
+    height: 50px; /* Set height */
+    margin-top: 15px;
+    padding: 8px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    border: 2px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    background-color: rgba(255, 255, 255, 0.577); /* Set background color */
+    color: #333; /* Set text color */
+}
+
+/* Style for when input is focused */
+#guess-input:focus {
+    outline: none; 
+    border-color: #f0755a; 
+    box-shadow: 0 0 5px rgba(209, 222, 235, 0.5); 
+}
+
+#select {
+    color: white;
+    margin-top: 15px;
+    width: 120px;
+    height: 45px; 
+    background-color: rgba(128, 128, 128, 0.686);
+    padding: 8px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 2px; 
+    cursor: pointer; 
+}
+#score{
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: 35px;
+    background-color: grey;
+    padding: 6px;
+    width: 150px;
+   
+}
+
+#nextPlayer{
+    color: white;
+    margin-top: 5%;
+    width: 100px;
+    height: 45px ;
+    background-color: rgba(128, 128, 128, 0.686);
+    padding: 8px;
+    font-size: 16px; 
+    border: none; 
+    border-radius: 2px; 
+    cursor: pointer; 
+}
+
+
+#hint-text{
+    color: rgb(247, 120, 120);
+    margin-top: 50px;
+
+}

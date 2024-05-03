@@ -1,0 +1,139 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans--apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(' https://www.rollingstone.com/wp-content/uploads/2020/09/38_JordanPhoto-May-14-5-30-34-PMc.jpg?w=1600&h=900&crop=1');
+    background-color: rgba(0, 0, 0, 0.975);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 10px 60px;
+}
+
+/* THIS IS FOR THE HTML WELCOME*/
+header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+nav {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+  
+}
+nav ul{
+    width: 100%;
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    
+}
+nav li{
+    height: 50px;
+}
+nav a{
+   height: 100%;
+   padding: 0% 30px;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   color: white;
+}
+nav a:hover{
+    border-bottom: 1px solid #ffffff;
+} 
+nav li:first-child{
+    margin-right: auto;
+}.sidebar{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(8, 1, 1, 0.841);
+    backdrop-filter: blur(10px);
+    box-shadow: -1-px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%
+}
+.menu-button{
+    display: none;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    menu-button{
+        display: block;
+    }
+}
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%
+    }
+}
+
+.admin{
+    margin-top: 40%;
+    text-align: center;
+}
+.admin h2{
+    color: white;
+    font-size: 60px;
+}
+.admin a {
+    color: white;
+}
+
+.data{
+    padding:0px 20px;
+    display: grid;
+  text-align: center;
+  justify-content: center;                                                                                                 
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+input, select{
+    width: 180px;
+    height: 30px;
+    font-size: 14px;
+}
+/* FOR THE NBA DATA PAGE  */
+.buttons{
+    margin-left: 8%;
+    padding: 20px;
+
+} 
+
+.table{
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    padding: 1px 2px;
+  ;
+}

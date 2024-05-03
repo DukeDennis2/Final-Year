@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+		<!-- Bootstrap theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/register.css">
+		<title>Register and Login</title>
+	</head>
+
+		
+	<body style="background-image: url('https://e0.365dm.com/20/01/1600x900/skysports-kobe-bryant-nba_4902949.jpg?20200126195112'); background-color: black; background-size: 2000px; background-repeat: repeat; ">
+
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+
+		</div>
+		<div class="navbar-collapse collapse"  >
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#" id="logout" style="display: none;">Log Out</a></li>
+			</ul>
+		</div>
+		</div>
+		<br>
+		<div class="container">	
+		<form name="registration_form" id="registration_form" method="post" action="#" enctype="multipart/form-data" >
+		<div class="row">
+
+			<div class="col-sm-4">
+				<div class="form-group">
+                    <h2>Admin</h2>
+					<h2> Register </h2>
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email" class="form-control" placeholder="Enter your email">
+				</div>
+				
+				<div class="form-group">
+				<label for="password" >Password</label>
+				<input type="password" name="password" id="password" class="form-control"  placeholder="Enter your password">
+				</div>
+				<button type="button" id="register" name="register" class="onClick">Register Now</button>
+			</div><!-- end col -->
+			</form>
+			<div class="col-sm-4">
+				
+				
+			</div>
+			<form name="login_form" id="login_form" method="post" action="#" enctype="multipart/form-data" >
+			<div class="col-sm-4">
+				<div class="form-group">
+					<h2> Login </h2>
+				<label for="email">Email</label>
+				<input type="text" name="login_email" id="login_email" class="form-control" placeholder="Enter your email">
+				</div>
+				
+				<div class="form-group">
+				<label for="password">Password</label>
+				<input type="password" name="login_password" id="login_password" class="form-control"  placeholder="Enter your password">
+				</div>
+				<button type="button" id="login" name="login" class="onClick">Login</button>
+			</div>
+			
+		</div>		
+		</form>
+		</div>
+		<br>
+
+		<button class="onClick2" onclick="location.href = 'welcome.html';">Go Back</button>
+		<button class="onClick2" onclick="location.href = 'register.html';">create new user</button>
+
+
+	</body>
+
+
+	
+
+	<script type="module">
+	 
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+        import { getDatabase } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-database.js";
+        import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
+        import { getFirestore, collection, addDoc} from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
+
+        const firebaseConfig = {
+        apiKey: "AIzaSyABlt5RFJLPMjDyAnY9-CeXdbs7u4SiD6s",
+        authDomain: "development-login-b04f3.firebaseapp.com",
+        projectId: "development-login-b04f3",
+        storageBucket: "development-login-b04f3.appspot.com",
+        messagingSenderId: "122944613775",
+        appId: "1:122944613775:web:9f231aaba55a242ee3affa", 
+
+		databaseURL: "https://development-login-b04f3-default-rtdb.europe-west1.firebasedatabase.app" 
+
+      };
+
+	  // Initialize Firebase
+	  const app = initializeApp(firebaseConfig);
+	  const database = getDatabase(app);
+	  const auth = getAuth();
+      const db = getFirestore();
+	  console.log(app);
+
+	  
+
+	  //----- NEW USER REGISTRATION CREATED AND SEAVED TO AUTHENTICATION TABLE ON FIREBASE 	  
+	  document.getElementById("register").addEventListener("click", function() {
+		  var email =  document.getElementById("email").value;
+		  var password = document.getElementById("password").value;
+		  //For new registration
+		  createUserWithEmailAndPassword(auth, email, password)
+		  .then((adminCredential) => {
+		    // USER CREATED 
+		    const admin = adminCredential.user;
+		    console.log(admin);
+		    alert("Registered successfully!!");
+		    
+			const adminData = {
+				email:email,
+				password: password,
+			};
+
+			addDoc(collection(db, "Admin"), adminData)
+                .then((docRef) => {
+                console.log("Admin document has been created with ID: ", docRef.id);
+                })
+                .catch((error) => {
+                console.error("Error adding Admin document: ", error);
+                });
+
+		  })
+		  .catch((error) => {
+		    const errorCode = error.code;
+		    const errorMessage = error.message;
+		    console.log(errorMessage);
+		    alert(error);
+		  });		  		  
+	  });
+
+	  //----- REGISTRATION FUNCTION - DATA CREATED AND STORED INTO REALTIME DATABASE 
+
+
+	  //----- LOGIN FUNCTION - AUTHENTICATION   
+	  document.getElementById("login").addEventListener("click", function() {
+		  var email =  document.getElementById("login_email").value;
+		  var password = document.getElementById("login_password").value;
+
+		  signInWithEmailAndPassword(auth, email, password)
+		  .then((userCredential) => {
+		    // Signed in 
+		    const user = userCredential.user;
+		    console.log(user);
+		    alert(user.email+" Login successfully!!!");
+		    document.getElementById('logout').style.display = 'block';
+		    window.location.assign("AdminHomePage.html");
+		  })
+		  .catch((error) => {
+		    const errorCode = error.code;
+		    const errorMessage = error.message;
+		    console.log(errorMessage);
+		    alert(errorMessage);
+		  });		  		  
+	  });
+	  //----- End
+
+	  //----- Logout code start	  
+	  document.getElementById("logout").addEventListener("click", function() {
+		  signOut(auth).then(() => {
+			  // Sign-out successful.
+			  console.log('Sign-out successful.');
+			  alert('Sign-out successful.');
+			  document.getElementById('logout').style.display = 'none';
+			}).catch((error) => {
+			  // An error happened.
+			  console.log('An error happened.');
+			});		  		  
+	  });
+	  //----- End
+	</script>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+

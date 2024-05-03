@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over</title>
+    <link rel="stylesheet" href="css/defeat.css">
+</head>
+
+
+<body>
+    <h1>GAME OVER</h1>
+    <div id="score">
+
+        <p>You scored in this round:</p>
+        <strong id="scoreValue"></strong>
+
+        <img id="gif" src="" alt="GIF" style="display: none;">
+    </div>
+
+    <div id="message">
+        <!--  the messages will be displayed here  -->
+    </div>
+    
+    
+    <button id="save" class="save" onclick="saveScore()"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265 63.6">
+        <rect width="265" height="63.6"/><line class="cls-1" y1="2.5" x2="214" y2="2.5"/>
+    </svg> Click to save score</button>
+  
+    <button id="retry" class="retry" onclick="backToGame()"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265 63.6">
+        <rect width="265" height="63.6"/><line class="cls-1" y1="2.5" x2="214" y2="2.5"/>
+    </svg>back to mode</button>
+
+
+
+    <script >
+      
+        // Retrieve the score from the query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const score = urlParams.get('score') || 0;
+
+        // Display the score
+        document.getElementById('scoreValue').textContent = score;
+
+
+        // Display message based on the score
+        const messageElement = document.getElementById('message');
+        if (score < 2) {
+            messageElement.textContent = "Rookie you are trash! 🤣🤣 ";
+        } else if (score < 5) {
+            messageElement.textContent = "I have seen better 🤔";
+        } else if (score < 7) {
+            messageElement.textContent = "Not bad... for a rookie 🫤";
+        } else if (score < 9) { 
+            messageElement.textContent = "your getting pretty good 🙌!"
+        } else if (score < 11) { 
+            messageElement.textContent = "ur so cool 😎"
+        } else if (score < 13) { 
+            messageElement.textContent = "great job bro🤩"
+        } else if (score < 15) { 
+            messageElement.textContent = "who let this guy cook 👨‍🍳!"
+        } else if (score < 17) { 
+            messageElement.textContent = "somebody sign this guy to 10 day contract📝!"
+        }
+
+        // Function to get GIF URL based on score
+        function getGifUrl(score) {
+            // Define score ranges and corresponding GIFs
+            const scoreRanges = [
+                { start: 0, end: 2, gifUrl: " https://media.giphy.com/media/xTiTnDAP0RiCo9k85W/giphy.gif" },
+                { start: 2, end: 5, gifUrl: "https://25.media.tumblr.com/d7eb4ad2f8d1a17886d16fd9e68e56f6/tumblr_mjkojbpjgY1r4g1p5o1_400.gif" },
+                { start: 5, end: 7, gifUrl: "https://i.pinimg.com/originals/92/99/f1/9299f1fd12f7c8d5a1c321bd88b600a3.gif" },
+                { start: 7, end: 9, gifUrl: "https://media2.giphy.com/media/l0K46BDNuBnGJryiA/giphy.gif" },
+                { start: 9, end: 11, gifUrl: "https://media.tenor.com/SnVv6GjhoPEAAAAC/pat-bev-crying-pat-beverley.gif" },
+                { start: 11, end: 13, gifUrl: "https://cdn2.sbnation.com/imported_assets/731941/boshtongue.gif" },
+                { start: 13, end: 16, gifUrl: "https://giffiles.alphacoders.com/218/218705.gif" },
+                { start: 16, end: 20, gifUrl: "https://i.makeagif.com/media/9-28-2023/4xeB_3.gif" }
+
+
+                // Add more ranges and corresponding GIF URLs as needed
+            ];
+
+            // Find the GIF URL corresponding to the user's score
+            for (const range of scoreRanges) {
+                if (score >= range.start && score < range.end) {
+                    return range.gifUrl;
+                }
+            }
+
+            // Return a default GIF URL if the score doesn't match any range
+            return "default_gif_url";
+        }
+
+        // Function to display GIF based on score
+        function displayGif() {
+            const gifUrl = getGifUrl(score);
+            const gifElement = document.getElementById('gif');
+            gifElement.src = gifUrl;
+            gifElement.style.display = "block";
+        }
+
+        // Call the function to display GIF
+        displayGif();
+
+        function backToGame() {
+            // Redirect back to gameMode.html
+            window.location.href = 'gameMode.html';
+        }
+        function saveScore(){
+          window.location.href = "saveScore.html"
+        }
+
+    </script>
+    <script>
+        //from the points.html 
+        // Function to get the score from the URL query parameters
+        function getScoreFromURL() {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            return urlParams.get('score');
+        }
+
+        // Display the score on the page
+        const scorePoints = getScoreFromURL();
+        document.getElementById('score-points').textContent = score;
+    </script>
+
+
+    <script src="js/defeat.js"></script>
+
+</body>
+
+</html>
+
